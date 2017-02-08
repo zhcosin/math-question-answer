@@ -32,7 +32,7 @@
     A=<sqrt|<around*|(|a+7|)><rsup|2>+24<rsup|2>>
   </equation*>
 
-  \<#4E8E\>\<#662F\>\<#6784\>\<#9020\>\<#51E0\>\<#4F55\>\<#56FE\>\<#5F62\><math|A<around*|(|a,24|)>,B<around*|(|-a,-24|)>,C<around*|(|-7,0|)>>,\<#4E8E\>\<#662F\>\<#5229\>\<#7528\>\<#9762\>\<#79EF\>\<#5272\>\<#8865\>\<#6CD5\>\<#53EF\>\<#6C42\>.<center|>
+  \<#4E8E\>\<#662F\>\<#6784\>\<#9020\>\<#51E0\>\<#4F55\>\<#56FE\>\<#5F62\><math|A<around*|(|a,24|)>,B<around*|(|-a,-24|)>,C<around*|(|-7,0|)>>,\<#5982\>\<#4E0B\>\<#56FE\>\<#FF0C\>\<#800C\>\<#4E0A\>\<#4E0B\>\<#4E24\>\<#4E2A\>\<#5C0F\>\<#4E09\>\<#89D2\>\<#5F62\>\<#7684\>\<#9762\>\<#79EF\>\<#90FD\>\<#662F\><math|<frac|1|2>\<times\>7\<times\>24=84>\<#FF0C\>\<#6240\>\<#4EE5\>\<#6240\>\<#6C42\>\<#9762\>\<#79EF\>\<#4E3A\>168.<center|>
 
   \;
 
@@ -49,8 +49,8 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|?|C:\\Users\\Administrator\\AppData\\Roaming\\TeXmacs\\texts\\scratch\\no_name_15.tm>>
-    <associate|auto-2|<tuple|2|?|C:\\Users\\Administrator\\AppData\\Roaming\\TeXmacs\\texts\\scratch\\no_name_15.tm>>
+    <associate|auto-1|<tuple|1|?>>
+    <associate|auto-2|<tuple|2|?>>
   </collection>
 </references>
 
