@@ -63,7 +63,7 @@
   \<#6839\>\<#636E\>\<#51E0\>\<#4F55\>\<#5173\>\<#7CFB\>\<#6709\>
 
   <\equation*>
-    A R=b cos\<alpha\>=<frac|sin\<beta\>cos\<alpha\>|sin<around*|(|\<alpha\>+\<beta\>|)>>\<#FF0C\>P
+    A R=b cos\<alpha\>=<frac|sin\<beta\>cos\<alpha\>|sin<around*|(|\<alpha\>+\<beta\>|)>>,P
     R=b sin\<alpha\>=<frac|sin\<alpha\>sin\<beta\>|sin<around*|(|\<alpha\>+\<beta\>|)>>
   </equation*>
 
