@@ -32,7 +32,7 @@
   \<#70B9\><math|P>\<#4E3A\>\<#6B63\>\<#65B9\>\<#5F62\><math|A B C
   D>\<#7684\>\<#8FB9\><math|A B>\<#5916\>\<#4FA7\>\<#4E00\>\<#70B9\>\<#FF0C\><math|P
   C>\<#4E0E\><math|P D>\<#5206\>\<#522B\>\<#4E0E\>\<#8FB9\><math|A
-  B>\<#76F8\>\<#4EA4\>\<#4E8E\><math|T>\<#548C\><math|S>\<#FF0C\>\<#8BB0\><math|\<angle\>P
+  B>\<#76F8\>\<#4EA4\>\<#4E8E\><math|S>\<#548C\><math|T>\<#FF0C\>\<#8BB0\><math|\<angle\>P
   A B=\<alpha\>>\<#FF0C\><math|\<angle\>P B
   A=\<beta\>>\<#FF0C\>\<#5219\>\<#6709\>\<#FF1A\>
 
