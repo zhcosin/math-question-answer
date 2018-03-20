@@ -61,7 +61,7 @@
   \<#5947\>\<#6570\> <math|n> \<#90A3\>\<#5C31\>\<#66F4\>\<#6210\>\<#7ACB\>\<#4E86\>\<#FF0C\>\<#56E0\>\<#4E3A\>\ 
 
   <\equation*>
-    x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|2n+1>=<around*|(|x<rsub|1>+x<rsub|2>|)>+\<cdots\>+<around*|(|x<rsub|2n-1>+x<rsub|2n>|)>+x<rsub|2n+1>\<gtr\>2n+x<rsub|2n>\<gtr\>2n+1
+    x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|2n+1>=<around*|(|x<rsub|1>+x<rsub|2>|)>+\<cdots\>+<around*|(|x<rsub|2n-1>+x<rsub|2n>|)>+x<rsub|2n+1>\<gtr\>2n+x<rsub|2n+1>\<gtr\>2n+1
   </equation*>
 
   \<#5DE6\>\<#8FB9\>\<#8BC1\>\<#5B8C\>\<#FF0C\>\<#518D\>\<#6765\>\<#8BC1\>\<#660E\>\<#53F3\>\<#8FB9\>\<#FF0C\>\<#8FD9\>\<#65F6\>\<#5C31\>\<#53CD\>\<#8FC7\>\<#6765\>\<#4E86\>\<#FF0C\>\<#7531\>
