@@ -1,6 +1,6 @@
 <TeXmacs|1.99.5>
 
-<style|generic>
+<style|<tuple|generic|chinese>>
 
 <\body>
   \<#9898\>\<#76EE\>: \<#6570\>\<#5217\> <math|x<rsub|n>> \<#7531\>
