@@ -9,6 +9,37 @@
 
   \;
 
+  <\problem>
+    (2017-02-18, \<#8D35\>\<#5DDE\>-\<#9AD8\>\<#4E8C\>-972)
+    \<#6C42\>\<#6570\>\<#5217\> <math|<sqrt|2>>\<#FF0C\>
+    <math|<sqrt|2<sqrt|2>>>, <math|<sqrt|2<sqrt|2<sqrt|2>>>>, .....
+    \<#7684\>\<#901A\>\<#9879\>\<#3002\>
+  </problem>
+
+  <\solution>
+    \<#4EE5\><math|a<rsub|n>>\<#6807\>\<#8BC6\>\<#6B64\>\<#6570\>\<#5217\>\<#FF0C\>\<#5219\>\<#5176\>\<#9012\>\<#63A8\>\<#516C\>\<#5F0F\>\<#4E3A\>:
+    <math|a<rsub|n+1>=<sqrt|2a<rsub|n>>>\<#FF0C\>\<#4E24\>\<#8FB9\>\<#53D6\>\<#4EE5\>\<#81EA\>\<#7136\>\<#5BF9\>\<#6570\>\<#4E3A\>\<#5E95\>\<#7684\>\<#5BF9\>\<#6570\>\<#5F97\>
+
+    <\equation*>
+      ln a<rsub|n+1>=<frac|1|2><around*|(|ln 2+ln a<rsub|n>|)>
+    </equation*>
+
+    \ \<#8BB0\><math|b<rsub|n>=ln a<rsub|n>>\<#FF0C\>\<#5219\><math|b<rsub|1>=<frac|1|2>ln
+    2>, \<#540C\>\<#65F6\><math|b<rsub|n+1>=<frac|1|2><around*|(|ln
+    2+b<rsub|n>|)>>\<#FF0C\><math|b<rsub|n>>\<#7684\>\<#901A\>\<#9879\>\<#6709\>\<#4E24\>\<#79CD\>\<#6C42\>\<#6CD5\>\<#FF08\>\<#4E00\>\<#6B21\>\<#7EBF\>\<#6027\>\<#9012\>\<#63A8\>\<#6570\>\<#5217\>\<#7684\>\<#901A\>\<#9879\>\<#6C42\>\<#6CD5\>\<#FF09\>\<#FF0C\>\<#4E00\>\<#662F\>\<#4E24\>\<#8FB9\>\<#540C\>\<#4E58\>\<#4EE5\><math|2<rsup|n+1>>\<#FF0C\>\<#5F97\>\ 
+
+    <\equation*>
+      2<rsup|n+1>b<rsub|n+1>=2<rsup|n>ln 2+2<rsup|n>b<rsub|n>
+    </equation*>
+
+    \<#4E8E\>\<#662F\>\<#4EE4\><math|c<rsub|n>=2<rsup|n>b<rsub|n>>\<#FF0C\>\<#5C31\>\<#6709\><math|c<rsub|1>=ln
+    2>,\<#800C\><math|c<rsub|n+1>=2<rsup|n>ln
+    2+c<rsub|n>>\<#FF0C\>\<#7D2F\>\<#52A0\>\<#5373\>\<#5F97\><math|c<rsub|n>=ln
+    2+ln 2\<cdot\><big|sum><rsub|k=1><rsup|n-1>2<rsup|k>=<around*|(|2<rsup|n>-1|)>ln
+    2>\<#FF0C\>\<#6240\>\<#4EE5\><math|b<rsub|n>=<around*|(|1-<frac|1|2<rsup|n>>|)>ln
+    2>\<#FF0C\>\<#4ECE\>\<#800C\><math|a<rsub|n>=e<rsup|b<rsub|n>>=2<rsup|<around*|(|1-<frac|1|2<rsup|n>>|)>>>
+  </solution>
+
   <chapter|2018 \<#5E74\>>
 
   \;
@@ -227,8 +258,8 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|?>>
-    <associate|auto-2|<tuple|2|?>>
+    <associate|auto-1|<tuple|1|3>>
+    <associate|auto-2|<tuple|2|5>>
   </collection>
 </references>
 
