@@ -130,6 +130,120 @@
     \;
   </solution>
 
+  \;
+
+  <\problem>
+    (2017-04-19) \<#6570\>\<#5217\> <math|<around*|{|a<rsub|n>|}>>
+    \<#6EE1\>\<#8DB3\> <math|a<rsub|1>=2>,\<#5E76\>\<#4E14\>
+    <math|<around*|(|n+1|)>a<rsub|n+1><rsup|2>=n
+    a<rsub|n><rsup|2>+a<rsub|n>>,\<#6C42\>\<#8BC1\>
+    <math|<big|sum><rsub|i=2><rsup|n><frac|a<rsub|i><rsup|2>|i<rsup|2>>\<less\><frac|9|5>>.
+  </problem>
+
+  <\solution>
+    \ \<#7531\>\<#6570\>\<#5217\>\<#5F52\>\<#7EB3\>\<#6CD5\>\<#6613\>\<#8BC1\><math|a<rsub|n>\<gtr\>1>\<#FF0C\>\<#6240\>\<#4EE5\>
+
+    <\equation*>
+      a<rsub|n+1><rsup|2>=<frac|n*a<rsub|n><rsup|2>+a<rsub|n>|n+1>\<less\><frac|n*a<rsub|n><rsup|2>+a<rsub|n><rsup|2>|n+1>=a<rsub|n><rsup|2>
+    </equation*>
+
+    \<#4E8E\>\<#662F\>\<#6570\>\<#5217\>\<#9012\>\<#51CF\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#5F53\><math|n\<gtr\>1>\<#65F6\>\<#FF0C\><math|a<rsub|n>\<less\>a<rsub|1>=2>
+
+    <\equation*>
+      <around|(|n+1|)>*a<rsub|n+1><rsup|2>=n*a<rsub|n><rsup|2>+a<rsub|n>\<less\>n*a<rsub|n><rsup|2>+2
+    </equation*>
+
+    \<#4E8E\>\<#662F\>\<#7D2F\>\<#52A0\>\<#4E0B\>\<#53BB\>\<#FF0C\>\<#5C31\>\<#6709\>
+
+    <\equation*>
+      n*a<rsub|n><rsup|2>\<less\>a<rsub|1><rsup|2>+2*<around|(|n-1|)>=2*<around|(|n+1|)>
+    </equation*>
+
+    \<#6240\>\<#4EE5\>
+
+    <\equation*>
+      a<rsub|n><rsup|2>\<less\>2*<around*|(|1+<frac|1|n>|)>
+    </equation*>
+
+    \<#4E8E\>\<#662F\>
+
+    <\equation*>
+      <big|sum><rsub|i=2><rsup|n><frac|a<rsub|i><rsup|2>|i<rsup|2>>\<less\>2*<around*|(|<big|sum><rsub|i=2><rsup|n><frac|1|i<rsup|2>>+<big|sum><rsub|i=2><rsup|n><frac|1|i<rsup|3>>|)>
+    </equation*>
+
+    \<#501F\>\<#7528\>\<#653E\>\<#7F29\>
+
+    <\equation*>
+      <frac|1|i<rsup|2>>\<less\><frac|1|<around|(|i-1|)>*i>=<frac|1|i-1>+<frac|1|i>
+    </equation*>
+
+    \<#548C\>
+
+    <\equation*>
+      <frac|1|i<rsup|3>>\<less\><frac|1|<around|(|i-1|)>*i*<around|(|i+1|)>>=<frac|1|2>*<around*|(|<frac|1|<around|(|i-1|)>*i>-<frac|1|i*<around|(|i+1|)>>|)>
+    </equation*>
+
+    \<#4ECE\><math|i\<geqslant\>4>\<#5F00\>\<#59CB\>\<#653E\>\<#7F29\>\<#FF0C\>\<#7D2F\>\<#52A0\>\<#5373\>\<#5F97\>
+
+    <align*|<tformat|<table|<row|<cell|<big|sum><rsub|i=2><rsup|n><frac|a<rsub|i><rsup|2>|i<rsup|2>>>|<cell|\<less\>2*<around*|(|<frac|1|4>+<frac|1|9>+<around|(|<frac|1|3>-<frac|1|n>|)>+<frac|1|8>+<frac|1|27>+<frac|1|2>*<around|(|<frac|1|12>-<frac|n|n+1>|)>|)>>>|<row|<cell|>|<cell|\<less\>2*<around*|(|<frac|1|4>+<frac|1|9>+<frac|1|3>+<frac|1|8>+<frac|1|27>+<frac|1|24>|)>>>|<row|<cell|>|<cell|=2*<around*|(|<frac|3|4>+<frac|4|27>|)>\<less\><frac|9|5>>>>>>
+  </solution>
+
+  <\solution>
+    \<#4E0D\>\<#4EE5\>\<#8981\>\<#8BC1\>\<#7684\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#4E3A\>\<#76EE\>\<#6807\>\<#FF0C\>\<#7814\>\<#7A76\>\<#4E0B\>\<#8FD9\>\<#4E2A\>\<#6570\>\<#5217\>\<#7684\>\<#6027\>\<#6001\>\<#FF0C\>\<#56E0\>\<#4E3A\>
+
+    <\equation*>
+      a<rsub|n+1><rsup|2>=a<rsub|n>*<frac|n*a<rsub|n>+1|n+1>
+    </equation*>
+
+    \<#663E\>\<#7136\><math|<frac|n*a<rsub|n>+1|n+1>>\<#662F\><math|a<rsub|n>>\<#548C\>1\<#7684\>\<#52A0\>\<#6743\>\<#5E73\>\<#5747\>\<#FF0C\>\<#56E0\>\<#4E3A\><math|a<rsub|n>\<gtr\>1>\<#6709\><math|<frac|n*a<rsub|n>+1|n+1>\<less\>a<rsub|n>>\<#FF0C\>\<#6240\>\<#4EE5\>\<#6709\>
+
+    <align*|<tformat|<table|<row|<cell|a<rsub|n+1>>|<cell|=<sqrt|a<rsub|n>\<cdot\><frac|n*a<rsub|n>+1|n+1>>>>|<row|<cell|>|<cell|\<less\><frac|1|2>*<around*|(|a<rsub|n>+<frac|n*a<rsub|n>+1|n+1>|)>>>|<row|<cell|>|<cell|=<frac|2*n+1|2*n+2>*a<rsub|n>+<frac|1|2*n+2>>>>>>
+
+    \<#53E6\>\<#4E00\>\<#65B9\>\<#9762\>\<#FF0C\>\<#7531\><math|<frac|n*a<rsub|n>+1|n+1>\<less\>a<rsub|n>>\<#FF0C\>\<#6240\>\<#4EE5\>
+
+    <\equation*>
+      a<rsub|n+1><rsup|2>=a<rsub|n>\<cdot\><frac|n*a<rsub|n>+1|n+1>\<gtr\><around*|(|<frac|n*a<rsub|n>+1|n+1>|)><rsup|2>
+    </equation*>
+
+    \<#6240\>\<#4EE5\>
+
+    <\equation*>
+      a<rsub|n+1>\<gtr\><frac|n|n+1>*a<rsub|n>+<frac|1|n+1>
+    </equation*>
+
+    \<#7EFC\>\<#5408\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#4F30\>\<#8BA1\>\<#FF0C\>\<#5F97\>\<#5230\>
+
+    <\equation*>
+      <frac|n|n+1>*a<rsub|n>+<frac|1|n+1>\<less\>a<rsub|n+1>\<less\><frac|2*n+1|2*n+2>*a<rsub|n>+<frac|1|2*n+2>
+    </equation*>
+
+    \<#5DE6\>\<#53F3\>\<#90FD\>\<#662F\><math|a<rsub|n>>\<#548C\>1\<#7684\>\<#52A0\>\<#6743\>\<#5E73\>\<#5747\>\<#FF0C\>\<#53EA\>\<#662F\>\<#6743\>\<#91CD\>\<#4E0D\>\<#540C\>\<#FF0C\>\<#4E0A\>\<#5F0F\>\<#6539\>\<#5199\>\<#4E3A\>
+
+    <\equation*>
+      <frac|n|n+1>*<around|(|a<rsub|n>-1|)>\<less\>a<rsub|n+1>-1\<less\><frac|2*n+1|2*n+2>*<around|(|a<rsub|n>-1|)>
+    </equation*>
+
+    \<#6240\>\<#4EE5\>\<#6700\>\<#540E\>\<#5C31\>\<#6709\>\<#4F30\>\<#8BA1\>\<#5F0F\>
+
+    <\equation*>
+      1+<frac|1|n>\<less\>a<rsub|n>\<less\>1+<frac|1|2>\<cdot\><frac|<around|(|2*n-1|)>!!|<around|(|2*n|)>!!>
+    </equation*>
+
+    \<#5BF9\>\<#4E8E\>\<#540E\>\<#9762\>\<#7684\>\<#53CC\>\<#9636\>\<#4E58\>\<#FF0C\>\<#7531\>\<#719F\>\<#77E5\>\<#7684\>\<#653E\>\<#7F29\>
+
+    <align*|<tformat|<table|<row|<cell|>|<cell|<around*|(|<frac|1|2>\<cdot\><frac|3|4>*\<cdots\>*<frac|2*n-1|2*n>|)><rsup|2>>>|<row|<cell|=>|<cell|<around*|(|<frac|1|2>\<cdot\><frac|1|2>|)>*<around*|(|<frac|3|4>\<cdot\><frac|3|4>|)>*\<cdots\>*<around*|(|<frac|2*n-1|2*n>\<cdot\><frac|2*n-1|2*n>|)>>>|<row|<cell|\<less\>>|<cell|<around*|(|<frac|1|2>\<cdot\><frac|2|3>|)>*<around*|(|<frac|3|4>\<cdot\><frac|4|5>|)>*\<cdots\>*<around*|(|<frac|2*n-1|2*n>\<cdot\><frac|2*n|2*n+1>|)>>>|<row|<cell|=>|<cell|<frac|1|2*n+1>>>>>>
+
+    \<#6240\>\<#4EE5\><math|a<rsub|n>>\<#7684\>\<#4F30\>\<#8BA1\>\<#5F0F\>\<#4E24\>\<#7AEF\>\<#90FD\>\<#4EE5\>1\<#4E3A\>\<#6781\>\<#9650\>\<#FF0C\>\<#7531\>\<#5939\>\<#903C\>\<#5B9A\>\<#7406\>\<#FF0C\><math|a<rsub|n>>\<#6781\>\<#9650\>\<#4E3A\>1.
+
+    \<#800C\>\<#4ECD\>\<#7531\>\<#90A3\>\<#4F30\>\<#8BA1\>\<#5F0F\>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#5F97\>\<#51FA\>
+
+    <\equation*>
+      a<rsub|n><rsup|2>\<less\><around*|(|1+<frac|1|2*<sqrt|2*n+1>>|)><rsup|2>\<less\>2+<frac|1|4>*<frac|1|2*n+1>\<less\>2+<frac|1|8*n>
+    </equation*>
+
+    \<#7531\>\<#8FD9\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#FF0C\>\<#4ECD\>\<#540C\>\<#8BC1\>\<#660E\>\<#4E00\>\<#4E2D\>\<#7684\>\<#653E\>\<#7F29\>\<#FF0C\>\<#540C\>\<#6837\>\<#53EF\>\<#8BC1\>\<#5F97\>\<#9898\>\<#76EE\>\<#4E2D\>\<#7684\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#3002\>
+  </solution>
+
   <chapter|2018 \<#5E74\>>
 
   \;
