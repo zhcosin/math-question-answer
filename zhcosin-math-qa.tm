@@ -244,6 +244,47 @@
     \<#7531\>\<#8FD9\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#FF0C\>\<#4ECD\>\<#540C\>\<#8BC1\>\<#660E\>\<#4E00\>\<#4E2D\>\<#7684\>\<#653E\>\<#7F29\>\<#FF0C\>\<#540C\>\<#6837\>\<#53EF\>\<#8BC1\>\<#5F97\>\<#9898\>\<#76EE\>\<#4E2D\>\<#7684\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#3002\>
   </solution>
 
+  \;
+
+  <\problem>
+    (2017-04021,2008\<#5E74\>IMO)\<#8BBE\>
+    <math|a>\<#FF0C\><math|b>\<#FF0C\><math|c>
+    \<#662F\>\<#4E09\>\<#4E2A\>\<#4E92\>\<#4E0D\>\<#76F8\>\<#7B49\>\<#7684\>\<#5B9E\>\<#6570\>\<#FF0C\>\<#6C42\>\<#8BC1\>:\ 
+
+    <\equation*>
+      <around*|(|<frac|a|a-b>|)><rsup|2>+<around*|(|<frac|b|b-c>|)><rsup|2>+<around*|(|<frac|c|c-a>|)><rsup|2>\<geqslant\>1
+    </equation*>
+  </problem>
+
+  <\solution>
+    \<#4F5C\>\<#4EE3\>\<#6362\>
+
+    <\equation*>
+      x=<frac|a|a-b>,y=<frac|b|b-c>,z=<frac|c|c-a>
+    </equation*>
+
+    \<#5219\>\<#53EA\>\<#9700\>\<#8BC1\> <math|x<rsup|2>+y<rsup|2>+z<rsup|2>\<geqslant\>1>\<#FF0C\>\<#6613\>\<#77E5\>\<#5728\>\<#8FD9\>\<#4EE3\>\<#6362\>\<#4E0B\>\<#6709\>
+
+    <\equation*>
+      <around*|(|1-<frac|1|x>|)><around*|(|1-<frac|1|y>|)><around*|(|1-<frac|1|z>|)>=1
+    </equation*>
+
+    \<#6574\>\<#7406\>\<#5373\>\<#5F97\>
+
+    <\equation*>
+      x+y+z=x y+y z+z x+1
+    </equation*>
+
+    \<#8BB0\>\<#7B49\>\<#5F0F\>\<#5DE6\>\<#53F3\>\<#4E24\>\<#8FB9\>\<#7684\>\<#516C\>\<#5171\>\<#503C\>\<#4E3A\><math|t>\<#FF0C\>\<#5219\>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|x<rsup|2>+y<rsup|2>+z<rsup|2>>|<cell|=>|<cell|<around*|(|x+y+z|)><rsup|2>-2<around*|(|x
+      y+y z+z x|)>>>|<row|<cell|>|<cell|=>|<cell|t<rsup|2>-2<around*|(|t-1|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|t-1|)><rsup|2>+1\<geqslant\>1>>>>
+    </eqnarray*>
+  </solution>
+
+  \;
+
   <chapter|2018 \<#5E74\>>
 
   \;
