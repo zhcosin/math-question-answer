@@ -5,7 +5,9 @@
 <\body>
   <doc-data|<doc-title|\<#4E2A\>\<#4EBA\>\<#7F51\>\<#7EDC\>\<#89E3\>\<#9898\>\<#6D41\>\<#6C34\>\<#7EBF\>>|<doc-author|<author-data|<author-name|zhcosin>>>>
 
-  <chapter|\<#53F2\>\<#524D\>\<#65F6\>\<#671F\>(\<#672C\>\<#4EBA\>\<#51FA\>\<#751F\>-2017\<#5E74\>)>
+  <chapter|0-2016\<#5E74\>>
+
+  <chapter|2017\<#5E74\>>
 
   \;
 
@@ -505,6 +507,7 @@
   <\collection>
     <associate|auto-1|<tuple|1|3>>
     <associate|auto-2|<tuple|2|5>>
+    <associate|auto-3|<tuple|3|?>>
   </collection>
 </references>
 
