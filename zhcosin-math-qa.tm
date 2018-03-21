@@ -27,6 +27,87 @@
     <math|30\<less\>a<rsub|9000>\<less\>30.01>.
   </problem>
 
+  <\solution>
+    \<#9012\>\<#63A8\>\<#5F0F\>\<#4E24\>\<#8FB9\>\<#4E09\>\<#6B21\>\<#65B9\>
+
+    <\equation*>
+      a<rsub|n+1><rsup|3>=a<rsub|n><rsup|3>+3+<frac|3|a<rsub|n><rsup|3>>+<frac|1|a<rsub|n><rsup|6>>
+    </equation*>
+
+    \<#663E\>\<#7136\>\<#6570\>\<#5217\>\<#662F\>\<#4E25\>\<#683C\>\<#589E\>\<#52A0\>\<#7684\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#5728\><math|n\<gtr\>2>\<#65F6\>\<#FF0C\><math|a<rsub|n>\<gtr\>a<rsub|2>=2>\<#FF0C\>\<#4E8E\>\<#662F\>\<#6B64\>\<#65F6\>
+
+    <\equation*>
+      a<rsub|n><rsup|3>+3\<less\>a<rsub|n+1><rsup|3>\<less\>a<rsub|n><rsup|3>+3+<frac|3|2<rsup|3>>+<frac|1|2<rsup|6>>\<less\>a<rsub|n><rsup|3>+4
+    </equation*>
+
+    \<#56E0\>\<#6B64\>\<#5728\><math|n\<gtr\>3>\<#65F6\>\<#6709\>
+
+    <\equation*>
+      3*n+2\<less\>a<rsub|n><rsup|3>\<less\>4*n
+    </equation*>
+
+    \<#5C06\>\<#8FD9\>\<#4F30\>\<#8BA1\>\<#5F0F\>\<#5E94\>\<#7528\>\<#5230\>\<#524D\>\<#5F0F\>\<#7684\>\<#53F3\>\<#8FB9\>\<#FF0C\>\<#5F97\>
+
+    <\equation*>
+      a<rsub|n><rsup|3>+3+<frac|3|4*n>+<frac|1|16*n<rsup|2>>\<less\>a<rsub|n+1><rsup|3>\<less\>a<rsub|n><rsup|3>+3+<frac|3|3*n+2>+<frac|1|<around|(|3*n+2|)><rsup|2>>
+    </equation*>
+
+    \<#4E8E\>\<#662F\>\<#5F97\>
+
+    <\equation*>
+      a<rsub|2><rsup|3>+3*<around|(|n-2|)>+<frac|3|4>*<big|sum><rsub|k=2><rsup|n-1><frac|1|k>+<frac|1|16>*<big|sum><rsub|k=2><rsup|n-1><frac|1|k<rsup|2>>\<less\>a<rsub|n><rsup|3>\<less\>a<rsub|2><rsup|3>+3*<around|(|n-2|)>+3*<big|sum><rsub|k=2><rsup|n-1><frac|1|3*k+2>+<big|sum><rsub|k=2><rsup|n-1><frac|1|<around|(|3*k+2|)><rsup|2>>
+    </equation*>
+
+    \<#63A5\>\<#4E0B\>\<#6765\>\<#5BF9\>\<#4E24\>\<#8FB9\>\<#7684\>\<#56DB\>\<#4E2A\>\<#6C42\>\<#548C\>\<#8FDB\>\<#884C\>\<#4F30\>\<#503C\>\<#FF0C\>\<#5728\>\<#63A5\>\<#4E0B\>\<#6765\>\<#7684\>\<#8FC7\>\<#7A0B\>\<#4E2D\>\<#9700\>\<#8981\>\<#4F7F\>\<#7528\>\<#4EE5\>\<#4E0B\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#3002\>
+
+    <\equation*>
+      ln <around|(|n+1|)>\<less\><big|sum><rsub|k=1><rsup|n><frac|1|k>\<less\>1+ln
+      n
+    </equation*>
+
+    \<#663E\>\<#7136\>\<#6709\>
+
+    <\equation*>
+      <big|sum><rsub|k=2><rsup|n-1><frac|1|k>\<gtr\>ln n-1
+    </equation*>
+
+    \<#4EE5\>\<#53CA\>
+
+    <align*|<tformat|<table|<row|<cell|<big|sum><rsub|k=2><rsup|n-1><frac|1|k<rsup|2>>>|<cell|\<gtr\><big|sum><rsub|k=2><rsup|n-1><frac|1|k*<around|(|k+1|)>>>>|<row|<cell|>|<cell|=<big|sum><rsub|k=2><rsup|n-1><around*|(|<frac|1|k>-<frac|1|k+1>|)>>>|<row|<cell|>|<cell|=<frac|1|2>-<frac|1|n>>>>>>
+
+    \<#56E0\>\<#6B64\>\<#6709\><math|a<rsub|n><rsup|3>>\<#7684\>\<#4E0B\>\<#754C\>\<#4F30\>\<#8BA1\>\<#5F0F\>
+
+    <\equation*>
+      a<rsub|n><rsup|3>\<gtr\>3*n+2+<frac|3|4>*ln
+      n-<frac|1|16*n>-<frac|23|32>
+    </equation*>
+
+    \<#63A5\>\<#4E0B\>\<#6765\>\<#7531\>\<#53CD\>\<#6BD4\>\<#4F8B\>\<#51FD\>\<#6570\>\<#7684\>\<#4E0B\>\<#51F8\>\<#6027\>\<#6709\>
+
+    <align*|<tformat|<table|<row|<cell|<big|sum><rsub|k=2><rsup|n-1><frac|1|3*k+2>>|<cell|\<less\><frac|1|3>*<big|sum><rsub|k=2><rsup|n-1><around*|(|<frac|1|3*k+1>+<frac|1|3*k+2>+<frac|1|3*k+3>|)>>>|<row|<cell|>|<cell|=<frac|1|3>*<big|sum><rsub|k=7><rsup|3*n><frac|1|k>>>|<row|<cell|>|<cell|\<less\><frac|1|3>*<around*|(|1+ln
+    3*n-<around*|(|1+<frac|1|2>+\<cdots\>+<frac|1|6>|)>|)>>>|<row|<cell|>|<cell|\<less\><frac|1|3>*<around*|(|1+ln
+    3*n-ln 7|)>>>>>>
+
+    \<#4EE5\>\<#53CA\>
+
+    <align*|<tformat|<table|<row|<cell|<big|sum><rsub|k=2><rsup|n-1><frac|1|<around|(|3*k+2|)><rsup|2>>>|<cell|\<less\><big|sum><rsub|k=2><rsup|n-1><frac|1|<around|(|3*k+2|)>*<around|(|3*k-1|)>>>>|<row|<cell|>|<cell|=<frac|1|3>*<big|sum><rsub|k=2><rsup|n-1><around*|(|<frac|1|3*k-1>-<frac|1|3*k+2>|)>>>|<row|<cell|>|<cell|=<frac|1|3>*<around*|(|<frac|1|5>-<frac|1|3*n-1>|)>>>>>>
+
+    \<#4E8E\>\<#662F\>\<#6709\><math|a<rsub|n><rsup|3>>\<#7684\>\<#4E0A\>\<#754C\>\<#4F30\>\<#8BA1\>\<#5F0F\>
+
+    <\equation*>
+      a<rsub|n><rsup|3>\<less\>3*n+3+ln 3*n-ln
+      7+<frac|1|3>*<around*|(|<frac|1|5>-<frac|1|3*n-1>|)>
+    </equation*>
+
+    \<#7EFC\>\<#5408\>\<#4E0A\>\<#754C\>\<#548C\>\<#4E0B\>\<#754C\>\<#FF0C\>\<#4EE3\>\<#5165\><math|n=9000>\<#5F97\>\<#5230\>:
+
+    <\equation*>
+      30.0030\<less\>a<rsub|9000>\<less\>30.0042
+    </equation*>
+
+    \<#5F97\>\<#5230\>\<#66F4\>\<#52A0\>\<#7CBE\>\<#786E\>\<#7684\>\<#7ED3\>\<#679C\>.
+  </solution>
+
   \;
 
   <\problem>
