@@ -458,6 +458,58 @@
   \;
 
   <\problem>
+    (2017-03-03\<#FF0C\>\<#5176\>\<#5999\>) \<#4E09\>\<#68F1\>\<#9525\>
+    <math|P-A B C> \<#4E2D\>\<#FF0C\>\<#4FA7\>\<#9762\> <math|P A B>
+    \<#4E0E\>\<#5E95\>\<#9762\> <math|A B C>
+    \<#5782\>\<#76F4\>\<#FF0C\><math|D> \<#4E3A\> <math|A B>
+    \<#4E2D\>\<#70B9\>\<#FF0C\> <math|A B=2>\<#FF0C\><math|\<angle\>P D
+    B=60<rsup|\<circ\>>>\<#FF0C\>\<#4E14\> <math|C> \<#5230\>
+    \<#76F4\>\<#7EBF\> <math|P D> \<#7684\>\<#8DDD\>\<#79BB\>\<#4E3A\>
+    <math|<sqrt|3>>\<#FF0C\>\<#5219\> <math|\<angle\> A C B>
+    \<#7684\>\<#6700\>\<#5927\>\<#503C\>\<#662F\>\<#591A\>\<#5C11\>?
+  </problem>
+
+  <\solution>
+    \<#8BBE\> <math|\<angle\> C D B=\<theta\>>\<#FF0C\>\<#7531\>\<#4E09\>\<#9762\>\<#89D2\>\<#7B2C\>\<#4E00\>\<#4F59\>\<#5F26\>\<#5B9A\>\<#7406\>\<#53EF\>\<#5F97\>
+    <math|cos\<angle\>P D C=cos\<angle\>C D B\<cdot\>cos\<angle\>P D
+    B=<frac|1|2>cos\<theta\>>\<#FF0C\>\<#8BBE\> <math|r=C
+    D>\<#FF0C\>\<#7528\> <math|d> \<#8868\>\<#793A\>\<#70B9\> <math|C>
+    \<#5230\>\<#76F4\>\<#7EBF\> <math|P D>
+    \<#7684\>\<#5782\>\<#7EBF\>\<#6BB5\>\<#FF0C\>\<#5219\>
+
+    <\equation*>
+      r<rsup|2>=<frac|d<rsup|2>|sin<rsup|2>\<angle\>P D
+      C>=<frac|3|1-<frac|1|4>cos<rsup|2>\<theta\>>=<frac|3|<frac|3|4>cos<rsup|2>\<theta\>+sin<rsup|2>\<theta\>>
+    </equation*>
+
+    \<#8FD9\>\<#5C31\>\<#662F\>\<#692D\>\<#5706\>\<#7684\>\<#65B9\>\<#7A0B\>\<#FF0C\>\<#5316\>\<#6210\>\<#76F4\>\<#89D2\>\<#5750\>\<#6807\>\<#5C31\>\<#662F\>
+    <math|<frac|x<rsup|2>|4>+<frac|y<rsup|2>|3>=1>\<#FF0C\>\<#6B63\>\<#597D\>\<#662F\>\<#4EE5\>
+    <math|A>\<#3001\><math|B> \<#4E3A\>\<#7126\>\<#70B9\>\<#7684\>\<#692D\>\<#5706\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#95EE\>\<#9898\>\<#8F6C\>\<#5316\>\<#4E3A\>\<#692D\>\<#5706\>\<#4E0A\>\<#7684\>\<#70B9\>\<#5BF9\>\<#4E24\>\<#4E2A\>\<#7126\>\<#70B9\>\<#7684\>\<#6700\>\<#5927\>\<#5F20\>\<#89D2\>\<#95EE\>\<#9898\>\<#FF0C\>\<#4E00\>\<#822C\>\<#5316\>\<#7684\>\<#89E3\>\<#51B3\>\<#6B64\>\<#95EE\>\<#9898\>\<#FF0C\>\<#8BBE\>\<#692D\>\<#5706\>
+    <math|<frac|x<rsup|2>|a<rsup|2>>+<frac|y<rsup|2>|b<rsup|2>>=1<around*|(|a\<gtr\>b\<gtr\>0|)>>\<#7684\>\<#5DE6\>\<#53F3\>\<#7126\>\<#70B9\>\<#5206\>\<#522B\>\<#4E3A\>
+    <math|F<rsub|1>> \<#548C\> <math|F<rsub|2>>\<#FF0C\>\<#70B9\> <math|P>
+    \<#662F\>\<#692D\>\<#5706\>\<#4E0A\>\<#7684\>\<#52A8\>\<#70B9\>\<#FF0C\>\<#8BBE\>
+    <math|<around*|\||P F<rsub|1>|\|>=a+t>\<#FF0C\><math|<around*|\||P
+    F<rsub|2>|\|>=a-t>\<#FF0C\>\<#7531\>\<#7126\>\<#534A\>\<#5F84\>\<#516C\>\<#5F0F\>
+    <math|<around*|\||P F<rsub|1>|\|>=a+e x> \<#7ED3\>\<#5408\>
+    <math|<around*|\||x|\|>\<leqslant\>a> \<#77E5\> <math|t>
+    \<#7684\>\<#8303\>\<#56F4\>\<#662F\> <math|<around*|\||t|\|>\<leqslant\>c>\<#FF0C\>\<#4E8E\>\<#662F\>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|cos\<angle\>F<rsub|1>P
+      F<rsub|2>>|<cell|=>|<cell|<frac|<around*|(|a+t|)><rsup|2>+<around*|(|a-t|)><rsup|2>-4c<rsup|2>|2<around*|(|a+t|)><around*|(|a-t|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|a<rsup|2>+t<rsup|2>-2c<rsup|2>|a<rsup|2>-t<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|<frac|2<around*|(|a<rsup|2>-c<rsup|2>|)>|a<rsup|2>-t<rsup|2>>-1>>|<row|<cell|>|<cell|\<geqslant\>>|<cell|<frac|2<around*|(|a<rsup|2>-c<rsup|2>|)>|a<rsup|2>>-1=1-2e<rsup|2>>>>>
+    </eqnarray*>
+
+    \<#7B49\>\<#53F7\>\<#4EC5\>\<#5728\> <math|t=0> \<#5373\>\<#70B9\>
+    <math|P> \<#662F\>\<#692D\>\<#5706\>\<#77ED\>\<#8F74\>\<#7AEF\>\<#70B9\>\<#65F6\>\<#53D6\>\<#5F97\>.
+    \<#4EE3\>\<#5165\>\<#6570\>\<#636E\>\<#5F97\>\<#9898\>\<#76EE\>\<#7684\>\<#7B54\>\<#6848\>\<#662F\>
+    <math|<frac|\<pi\>|3>>.
+  </solution>
+
+  \ 
+
+  \;
+
+  <\problem>
     (2018-03-17) \<#5DF2\>\<#77E5\>\<#6570\>\<#5217\>
     <math|<around*|{|a<rsub|n>|}>> \<#6EE1\>\<#8DB3\>
     <math|a<rsub|1>=<frac|1|2>>, <math|a<rsub|n+1>=<with|math-font-family|rm|e><rsup|a<rsub|n>-1>
