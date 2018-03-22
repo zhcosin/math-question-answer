@@ -5,6 +5,10 @@
 <\body>
   <doc-data|<doc-title|\<#4E2A\>\<#4EBA\>\<#7F51\>\<#7EDC\>\<#89E3\>\<#9898\>\<#6D41\>\<#6C34\>\<#7EBF\>>|<doc-author|<author-data|<author-name|zhcosin>>>>
 
+  <abstract-data|<abstract|\<#8FD9\>\<#662F\>\<#4E00\>\<#4EFD\>\<#89E3\>\<#9898\>\<#6D41\>\<#6C34\>\<#8D26\>\<#FF0C\>\<#7528\>\<#6765\>\<#8BB0\>\<#5F55\>\<#6211\>\<#5728\>\<#7F51\>\<#7EDC\>\<#4E0A\>\<#89E3\>\<#7B54\>\<#7684\>\<#6709\>\<#4EF7\>\<#503C\>\<#7684\>\<#9898\>\<#76EE\>\<#FF0C\>\<#4EE5\>\<#521D\>\<#7B49\>\<#6570\>\<#5B66\>\<#4E3A\>\<#4E3B\>\<#FF0C\>\<#4E5F\>\<#4F1A\>\<#6709\>\<#4E00\>\<#4E9B\>\<#9AD8\>\<#7B49\>\<#6570\>\<#5B66\>\<#9898\>\<#76EE\>.\<#8FD9\>\<#4EFD\>\<#6D41\>\<#6C34\>\<#8D26\>\<#4F1A\>\<#4E0D\>\<#5B9A\>\<#671F\>\<#7684\>\<#66F4\>\<#65B0\>\<#FF0C\>\<#6700\>\<#65B0\>\<#7684\>\<#6587\>\<#6863\>\<#53EF\>\<#4EE5\>\<#5728\>
+  <hlink|https://coding.net/u/zhcosin/p/math-notes-publish|>
+  \<#9875\>\<#9762\>\<#4E0A\>\<#627E\>\<#5230\>.>>
+
   <chapter|0-2016\<#5E74\>>
 
   <\problem>
@@ -579,6 +583,58 @@
     <math|<frac|\<pi\>|3>>.
   </solution>
 
+  \;
+
+  <\problem>
+    (2018-03-13, \<#9655\>\<#897F\>-\<#674E\>\<#4E16\>\<#6770\>)
+    \<#8BBE\>\<#70B9\> <math|A> \<#5173\>\<#4E8E\>\<#76F4\>\<#7EBF\> <math|O
+    B> \<#7684\>\<#5BF9\>\<#79F0\>\<#70B9\>\<#4E3A\>
+    <math|A<rprime|'>>\<#FF0C\>\<#8BBE\> <math|<wide|O
+    A|\<vect\>>=<wide|a|\<vect\>>>, <math|<wide|O
+    B|\<vect\>>=<wide|b|\<vect\>>>\<#FF0C\>\<#6839\>\<#636E\>\<#4F60\>\<#6240\>\<#5B66\>\<#7684\>\<#5E73\>\<#9762\>\<#5411\>\<#91CF\>\<#77E5\>\<#8BC6\>\<#FF0C\>\<#8BD5\>\<#7528\>\<#5411\>\<#91CF\>
+    <math|<wide|a|\<vect\>>>\<#3001\><math|<wide|b|\<vect\>>>
+    \<#8868\>\<#793A\>\<#5411\>\<#91CF\> <math|<wide|O
+    A<rprime|'>|\<vect\>>>.
+  </problem>
+
+  <\solution>
+    \<#9898\>\<#76EE\>\<#867D\>\<#7136\>\<#7B80\>\<#5355\>\<#FF0C\>\<#4F46\>\<#8981\>\<#7528\>\<#7EAF\>\<#5411\>\<#91CF\>\<#65B9\>\<#6CD5\>\<#624D\>\<#597D\>\<#73A9\>\<#FF0C\>\<#8BBE\>
+    <math|<wide|O A<rprime|'>|\<vect\>>=<wide|c|\<vect\>>>\<#FF0C\>\<#90A3\>\<#4E48\>\<#7531\>\<#6761\>\<#4EF6\>\<#53EF\>\<#77E5\>
+
+    <\equation*>
+      <around*|\||<wide|a|\<vect\>>|\|>=<around*|\||<wide|c|\<vect\>>|\|>,<space|1spc><around*|(|<wide|a|\<vect\>>-<wide|c|\<vect\>>|)>\<cdot\><wide|b|\<vect\>>=0
+    </equation*>
+
+    \<#800C\>\<#4E14\>\<#5B58\>\<#5728\>\<#552F\>\<#4E00\>\<#5B9E\>\<#6570\>
+    <math|\<lambda\>>\<#FF0C\>\<#4F7F\>\<#5F97\>
+
+    <\equation*>
+      <wide|a|\<vect\>>+<wide|c|\<vect\>>=\<lambda\><wide|b|\<vect\>>
+    </equation*>
+
+    \<#663E\>\<#7136\>\<#FF0C\>\<#53EA\>\<#8981\>\<#786E\>\<#5B9A\>\<#51FA\>
+    <math|\<lambda\>>\<#FF0C\>\<#5C31\>\<#5F97\>\<#5230\>\<#4E86\>
+    <math|<wide|c|\<vect\>>> \<#7684\>\<#5206\>\<#89E3\>\<#5F0F\>\<#FF0C\>\<#4E3A\>\<#6B64\>\<#5C06\>\<#4E0A\>\<#5F0F\>\<#4E24\>\<#8FB9\>\<#4E0E\>
+    <math|<wide|b|\<vect\>>> \<#4F5C\>\<#5185\>\<#79EF\>\<#5F97\>
+
+    <\equation*>
+      <wide|b|\<vect\>>\<cdot\><around*|(|<wide|a|\<vect\>>+<wide|c|\<vect\>>|)>=\<lambda\><wide|b|\<vect\>><rsup|2>
+    </equation*>
+
+    \<#800C\>\<#524D\>\<#9762\>\<#5DF2\>\<#7ECF\>\<#77E5\>\<#9053\>
+    <math|<wide|a|\<vect\>>\<cdot\><wide|b|\<vect\>>=<wide|c|\<vect\>>\<cdot\><wide|b|\<vect\>>>\<#FF0C\>\<#56E0\>\<#6B64\>\<#7531\>\<#4E0A\>\<#5F0F\>\<#77E5\>
+
+    <\equation*>
+      \<lambda\>=<frac|2<around*|(|<wide|a|\<vect\>>\<cdot\><wide|b|\<vect\>>|)>|<wide|b|\<vect\>><rsup|2>>
+    </equation*>
+
+    \<#4E8E\>\<#662F\>\<#5F97\>
+
+    <\equation*>
+      <wide|c|\<vect\>>=<frac|2<around*|(|<wide|a|\<vect\>>\<cdot\><wide|b|\<vect\>>|)>|<wide|b|\<vect\>><rsup|2>><wide|b|\<vect\>>-<wide|a|\<vect\>>
+    </equation*>
+  </solution>
+
   \ 
 
   \;
@@ -730,26 +786,31 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|3>>
-    <associate|auto-2|<tuple|2|5>>
-    <associate|auto-3|<tuple|3|9>>
+    <associate|auto-1|<tuple|?|3>>
+    <associate|auto-2|<tuple|1|5>>
+    <associate|auto-3|<tuple|2|7>>
+    <associate|auto-4|<tuple|3|11>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>0-2016\<#5E74\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#6458\>\<#8981\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>2017\<#5E74\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>0-2016\<#5E74\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
 
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>2017\<#5E74\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.5fn>
+
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>2018
       \<#5E74\>> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-3><vspace|0.5fn>
+      <no-break><pageref|auto-4><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
