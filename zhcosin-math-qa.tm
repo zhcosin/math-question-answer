@@ -249,7 +249,7 @@
   \;
 
   <\problem>
-    (2017-04021,2008\<#5E74\>IMO)\<#8BBE\>
+    (2017-04-21,2008\<#5E74\>IMO)\<#8BBE\>
     <math|a>\<#FF0C\><math|b>\<#FF0C\><math|c>
     \<#662F\>\<#4E09\>\<#4E2A\>\<#4E92\>\<#4E0D\>\<#76F8\>\<#7B49\>\<#7684\>\<#5B9E\>\<#6570\>\<#FF0C\>\<#6C42\>\<#8BC1\>:\ 
 
@@ -283,6 +283,75 @@
       <tformat|<table|<row|<cell|x<rsup|2>+y<rsup|2>+z<rsup|2>>|<cell|=>|<cell|<around*|(|x+y+z|)><rsup|2>-2<around*|(|x
       y+y z+z x|)>>>|<row|<cell|>|<cell|=>|<cell|t<rsup|2>-2<around*|(|t-1|)>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|t-1|)><rsup|2>+1\<geqslant\>1>>>>
     </eqnarray*>
+  </solution>
+
+  \;
+
+  <\problem>
+    (2017-05-02, \<#5176\>\<#5999\>) \<#4E24\>\<#4E2A\>\<#6570\>\<#5217\><math|a<rsub|n>>\<#548C\><math|b<rsub|n>>\<#6EE1\>\<#8DB3\>:
+    <math|a<rsub|1>=0>, <math|b<rsub|1>=<frac|1|2>>\<#FF0C\>
+    \<#5E76\>\<#6709\>\<#9012\>\<#63A8\>
+
+    <\equation*>
+      a<rsub|n+1>=<frac|a<rsub|n>+b<rsub|n>|2>,<space|1spc>b<rsub|n+1>=<sqrt|a<rsub|n+1>b<rsub|n>>
+    </equation*>
+
+    \<#6C42\>\<#8BC1\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#6570\>\<#5217\>\<#90FD\>\<#6709\>\<#6781\>\<#9650\>\<#FF0C\>\<#5E76\>\<#6C42\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#6781\>\<#9650\>.
+  </problem>
+
+  <\solution>
+    \<#56E0\>\<#4E3A\>
+
+    <\equation*>
+      <frac|a<rsub|n+1>|b<rsub|n+1>>=<frac|<frac|a<rsub|n>+b<rsub|n>|2>|<sqrt|a<rsub|n+1>b<rsub|n>>>=<frac|<frac|a<rsub|n>+b<rsub|n>|2>|<sqrt|<frac|a<rsub|n>+b<rsub|n>|2>b<rsub|n>>>=<sqrt|<frac|1+<frac|a<rsub|n>|b<rsub|n>>|2>>
+    </equation*>
+
+    \<#56E0\>\<#6B64\>\<#8BB0\>
+
+    <\equation*>
+      c<rsub|n>=<frac|a<rsub|n>|b<rsub|n>>
+    </equation*>
+
+    \<#4FBF\>\<#6709\>
+
+    <\equation*>
+      c<rsub|n+1>=<sqrt|<frac|1+c<rsub|n>|2>>
+    </equation*>
+
+    \<#53D7\>\<#4F59\>\<#5F26\>\<#534A\>\<#89D2\>\<#516C\>\<#5F0F\>\<#542F\>\<#53D1\>\<#FF0C\>\<#4F5C\>\<#5B9E\>\<#6570\>\<#5E8F\>\<#5217\><math|\<theta\><rsub|n>>\<#FF0C\>\<#4FBF\>\<#6709\>
+    <math|\<theta\><rsub|n+1>=<frac|1|2>\<theta\><rsub|n>>\<#FF0C\>\<#7ED3\>\<#5408\>
+    <math|cos\<theta\><rsub|1>=<frac|a<rsub|1>|b<rsub|1>>=0> \<#53D6\>
+    <math|\<theta\><rsub|1>=<frac|\<pi\>|2>>\<#FF0C\>\<#4FBF\>\<#53EF\>\<#6C42\>\<#5F97\>
+    <math|\<theta\><rsub|n>=<frac|\<pi\>|2<rsup|n>>>\<#FF0C\>\<#6240\>\<#4EE5\>
+    <math|c<rsub|n>=<frac|a<rsub|n>|b<rsub|n>>=cos<frac|\<pi\>|2<rsup|n>>>\<#FF0C\>\<#518D\>\<#4EE3\>\<#56DE\><math|b<rsub|n+1>>\<#7684\>\<#9012\>\<#63A8\>\<#516C\>\<#5F0F\>\<#5F97\>
+
+    <\equation*>
+      b<rsub|n+1>=<sqrt|a<rsub|n+1>b<rsub|n>>=<sqrt|cos<frac|\<pi\>|2<rsup|n+1>>b<rsub|n+1>b<rsub|n>>
+    </equation*>
+
+    \<#4ECE\>\<#800C\> <math|b<rsub|n+1>=cos<frac|\<pi\>|2<rsup|n+1>>b<rsub|n>>\<#FF0C\>\<#6240\>\<#4EE5\>\<#6700\>\<#540E\>\<#5F97\>
+
+    <\equation*>
+      b<rsub|n>=b<rsub|1>cos<frac|\<pi\>|2<rsup|2>>cos<frac|\<pi\>|2<rsup|3>>\<cdots\>cos<frac|\<pi\>|2<rsup|n>>
+    </equation*>
+
+    \<#73B0\>\<#5728\>\<#6765\>\<#6C42\>\<#8FD9\>\<#4E2A\>\<#8FDE\>\<#4E58\>\<#79EF\>\<#FF0C\>\<#53EA\>\<#8981\>\<#5C06\>\<#8FD9\>\<#8FDE\>\<#4E58\>\<#79EF\>\<#4E58\>\<#4E0A\><math|sin<frac|\<pi\>|2<rsup|n>>>\<#4FBF\>\<#4F1A\>\<#53D1\>\<#751F\>\<#8FDE\>\<#9501\>\<#53CD\>\<#5E94\>\<#FF0C\>\<#8FDE\>\<#9501\>\<#53CD\>\<#5E94\>\<#7684\>\<#7ED3\>\<#679C\>\<#4FBF\>\<#662F\>\<#8FD9\>\<#8FDE\>\<#4E58\>\<#79EF\>\<#7684\>\<#503C\>\<#7B49\>\<#4E8E\><math|<frac|1|2<rsup|n-1>sin<frac|\<pi\>|2<rsup|n>>>>\<#FF0C\>\<#6240\>\<#4EE5\>
+
+    <\equation*>
+      b<rsub|n>=<frac|1|2<rsup|n>sin<frac|\<pi\>|2<rsup|n>>>
+    </equation*>
+
+    \<#800C\>
+
+    <\equation*>
+      a<rsub|n>=b<rsub|n>cos<frac|\<pi\>|2<rsup|n>>=<frac|1|2<rsup|n>>cot<frac|\<pi\>|2<rsup|n>>
+    </equation*>
+
+    \ \<#7531\>\<#6781\>\<#9650\> <math|lim<rsub|x\<rightarrow\>0><frac|sin
+    x|x>=1> \<#5373\>\<#77E5\> <math|lim<rsub|n\<rightarrow\>\<infty\>>b<rsub|n>=lim<rsub|n\<rightarrow\>\<infty\>>=<frac|1|\<pi\>>>.
+
+    \<#8865\>\<#5145\>\<#4E00\>\<#70B9\>\<#FF0C\>\<#5982\>\<#679C\>\<#9898\>\<#76EE\>\<#6240\>\<#7ED9\>\<#6570\>\<#636E\>\<#4F7F\>\<#5F97\>
+    <math|c<rsub|1>\<gtr\>1>\<#FF0C\>\<#5C31\>\<#4E0D\>\<#80FD\>\<#4F7F\>\<#7528\>\<#4F59\>\<#5F26\>\<#4E86\>\<#FF0C\>\<#4E0D\>\<#8FC7\>\<#53EF\>\<#4EE5\>\<#4F7F\>\<#7528\>\<#53CC\>\<#66F2\>\<#4F59\>\<#5F26\>\<#FF0C\>\<#53CC\>\<#66F2\>\<#4F59\>\<#5F26\>\<#4E5F\>\<#62E5\>\<#6709\>\<#76F8\>\<#540C\>\<#7684\>\<#500D\>\<#534A\>\<#516C\>\<#5F0F\>.
   </solution>
 
   \;
