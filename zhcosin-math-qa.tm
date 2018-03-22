@@ -389,6 +389,36 @@
   \;
 
   <\problem>
+    (2018-03-17) \<#5DF2\>\<#77E5\>\<#6570\>\<#5217\>
+    <math|<around*|{|a<rsub|n>|}>> \<#6EE1\>\<#8DB3\>
+    <math|a<rsub|1>=<frac|1|2>>, <math|a<rsub|n+1>=<with|math-font-family|rm|e><rsup|a<rsub|n>-1>
+    <around*|(|n\<in\> <with|math-font|Bbb*|N><rsup|+>|)>>,
+    \<#5176\>\<#4E2D\> <math|<with|math-font-family|rm|e>>
+    \<#662F\>\<#81EA\>\<#7136\>\<#5BF9\>\<#6570\>\<#7684\>\<#5E95\>\<#6570\>.
+
+    (1). \<#6C42\>\<#8BC1\> <math|a<rsub|n+1>\<gtr\>a<rsub|n>
+    <around*|(|n\<in\> <with|math-font|Bbb*|N><rsup|+>|)>>.
+
+    (2). \<#8BBE\> <math|b<rsub|n>=1-a<rsub|n>>\<#FF0C\>\<#662F\>\<#5426\>\<#5B58\>\<#5728\>\<#5B9E\>\<#6570\>
+    <math|M\<gtr\>0>\<#FF0C\>\<#4F7F\>\<#5F97\>
+    <math|b<rsub|1>+b<rsub|2>+\<cdots\>+b<rsub|n>\<leqslant\>M>
+    \<#5BF9\>\<#4EFB\>\<#610F\> <math|n\<in\>
+    <with|math-font|Bbb*|N><rsup|+>> \<#6210\>\<#7ACB\>?
+    \<#82E5\>\<#5B58\>\<#5728\>\<#FF0C\>\<#6C42\>\<#51FA\> <math|M>
+    \<#7684\>\<#4E00\>\<#4E2A\>\<#53EF\>\<#80FD\>\<#503C\>\<#FF0C\>\<#82E5\>\<#4E0D\>\<#5B58\>\<#5728\>\<#FF0C\>\<#8BF4\>\<#660E\>\<#7406\>\<#7531\>.
+  </problem>
+
+  <\solution>
+    (1). \<#7531\> <math|a<rsub|n+1>=<with|math-font-family|rm|e><rsup|a<rsub|n>-1>\<geqslant\>1+<around*|(|a<rsub|n>-1|)>=a<rsub|n>>\<#FF0C\>\<#7531\>
+    <math|a<rsub|n>\<gtr\>0> \<#77E5\>\<#7B49\>\<#53F7\>\<#53D6\>\<#4E0D\>\<#5230\>.
+
+    (2). \<#6709\> <math|b<rsub|1>=<frac|1|2>>\<#FF0C\><math|b<rsub|n+1>=1-<with|math-font-family|rm|e><rsup|-b<rsub|n>>\<gtr\>1-<frac|1|1+b<rsub|n>>>\<#FF0C\>\<#7531\>\<#6B64\>\<#FF0C\>\<#5229\>\<#7528\>\<#6570\>\<#5B66\>\<#5F52\>\<#7EB3\>\<#6CD5\>\<#53EF\>\<#8BC1\>\<#5F97\>
+    <math|b<rsub|n>\<geqslant\><frac|1|n+1>>\<#FF0C\>\<#8C03\>\<#548C\>\<#7EA7\>\<#6570\>\<#7684\>\<#53D1\>\<#6563\>\<#6027\>\<#4F17\>\<#6240\>\<#5468\>\<#77E5\>.
+  </solution>
+
+  \;
+
+  <\problem>
     (2018-03-20\<#FF0C\>\<#751F\>\<#5982\>\<#590F\>\<#82B1\>)\<#5DF2\>\<#77E5\>\<#51FD\>\<#6570\>
     <math|f<around*|(|x|)>=x ln x-a x<rsup|2>+a <around*|(|a\<gtr\>0|)>>.
 
@@ -514,13 +544,17 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#53F2\>\<#524D\>\<#65F6\>\<#671F\>(\<#672C\>\<#4EBA\>\<#51FA\>\<#751F\>-2017\<#5E74\>)>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>0-2016\<#5E74\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>2018
-      \<#5E74\>> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>2017\<#5E74\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>2018
+      \<#5E74\>> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
