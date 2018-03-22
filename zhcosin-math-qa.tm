@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.21>
+<TeXmacs|1.99.5>
 
 <style|<tuple|book|chinese>>
 
@@ -6,6 +6,68 @@
   <doc-data|<doc-title|\<#4E2A\>\<#4EBA\>\<#7F51\>\<#7EDC\>\<#89E3\>\<#9898\>\<#6D41\>\<#6C34\>\<#7EBF\>>|<doc-author|<author-data|<author-name|zhcosin>>>>
 
   <chapter|0-2016\<#5E74\>>
+
+  <\problem>
+    (2016-06-20) \<#5DF2\>\<#77E5\>\<#5404\>\<#9879\>\<#90FD\>\<#662F\>\<#6B63\>\<#5B9E\>\<#6570\>\<#7684\>\<#6570\>\<#5217\>
+    <math|x<rsub|n>> \<#5BF9\>\<#4E00\>\<#5207\>\<#6B63\>\<#6574\>\<#6570\>
+    <math|n> \<#90FD\>\<#6210\>\<#7ACB\> <math|x<rsub|n>+<frac|1|x<rsub|n+1>>\<less\>2>\<#FF0C\>\<#6C42\>\<#8BC1\>:
+    \<#8BE5\>\<#6570\>\<#5217\>\<#7684\>\<#6240\>\<#6709\>\<#9879\>\<#90FD\>\<#6EE1\>\<#8DB3\>
+    <math|x<rsub|n>\<less\>1>.
+  </problem>
+
+  <\solution>
+    \<#5982\>\<#679C\>\<#7528\>\<#4E0A\>\<#6781\>\<#9650\>\<#7406\>\<#8BBA\>\<#FF0C\>\<#5219\>\<#53EF\>\<#4EE5\>\<#5F88\>\<#5BB9\>\<#6613\>\<#7684\>\<#5F97\>\<#51FA\>\<#5B83\>\<#5355\>\<#8C03\>\<#589E\>\<#52A0\>\<#5E76\>\<#4EE5\>1\<#4E3A\>\<#6781\>\<#9650\>\<#FF0C\>\<#7ED3\>\<#8BBA\>\<#4E0D\>\<#8BC1\>\<#81EA\>\<#660E\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#8FD9\>\<#91CC\>\<#4E3B\>\<#8981\>\<#8BA8\>\<#8BBA\>\<#7684\>\<#662F\>\<#521D\>\<#7B49\>\<#8BC1\>\<#660E\>.
+
+    \<#56E0\>\<#4E3A\>
+
+    <\equation*>
+      x<rsub|n>+<frac|1|x<rsub|n+1>>\<less\>2\<leqslant\>x<rsub|n+1>+<frac|1|x<rsub|n+1>>
+    </equation*>
+
+    \<#6240\>\<#4EE5\> <math|x<rsub|n>\<less\>x<rsub|n+1>>\<#FF0C\>\<#5373\>\<#8BE5\>\<#6570\>\<#5217\>\<#5355\>\<#8C03\>\<#589E\>\<#52A0\>.
+
+    \<#53C8\>\<#663E\>\<#7136\> <math|x<rsub|n>\<less\>2>\<#FF0C\>\<#6240\>\<#4EE5\>
+
+    <\equation*>
+      2\<gtr\>x<rsub|n>+<frac|1|x<rsub|n+1>>\<gtr\>x<rsub|n>+<frac|1|2>
+    </equation*>
+
+    \<#4E8E\>\<#662F\> <math|x<rsub|n>\<less\>2-<frac|1|2>>\<#FF0C\>\<#6211\>\<#4EEC\>\<#5F97\>\<#5230\>\<#4E00\>\<#4E2A\>\<#66F4\>\<#52A0\>\<#597D\>\<#7684\>\<#4E0A\>\<#9650\>\<#FF0C\>\<#91CD\>\<#590D\>\<#8FD9\>\<#4E2A\>\<#8FC7\>\<#7A0B\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#7531\>
+    <math|x<rsub|n>\<less\>y<rsub|m>> \<#5C31\>\<#53EF\>\<#4EE5\>\<#5F97\>\<#5230\>
+
+    <\equation*>
+      x<rsub|n>\<less\>2-<frac|1|y<rsub|m>>
+    </equation*>
+
+    \<#6240\>\<#4EE5\>\<#6211\>\<#4EEC\>\<#4F5C\>\<#6570\>\<#5217\>
+    <math|y<rsub|m>>\<#FF0C\>\<#5B83\>\<#7531\> <math|y<rsub|1>=2> \<#548C\>\ 
+
+    <\equation*>
+      y<rsub|m+1>=2-<frac|1|y<rsub|m>>
+    </equation*>
+
+    \<#6765\>\<#786E\>\<#5B9A\>.
+
+    \<#6570\>\<#5217\> <math|y<rsub|m>> \<#7684\>\<#6BCF\>\<#4E00\>\<#9879\>\<#90FD\>\<#5927\>\<#8FC7\>\<#6570\>\<#5217\>
+    <math|x<rsub|n>> \<#7684\>\<#5168\>\<#90E8\>\<#9879\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#5B83\>\<#7684\>\<#4E0B\>\<#6807\>\<#7279\>\<#610F\>\<#7528\>
+    <math|m> \<#800C\>\<#4E0D\>\<#662F\> <math|n>
+    \<#6765\>\<#8868\>\<#793A\>\<#FF0C\>\<#4EE5\>\<#793A\>\<#4E0D\>\<#76F8\>\<#5173\>.
+
+    \<#73B0\>\<#5728\>\<#6765\>\<#6C42\> <math|y<rsub|m>>
+    \<#7684\>\<#901A\>\<#9879\>\<#516C\>\<#5F0F\>\<#FF0C\>\<#7531\>\<#4E8E\>
+
+    <\equation*>
+      <frac|1|y<rsub|m+1>-1>=1+<frac|1|y<rsub|m>-1>
+    </equation*>
+
+    \<#56E0\>\<#6B64\>\<#6570\>\<#5217\> <math|<frac|1|y<rsub|m>-1>>
+    \<#662F\>\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>\<#FF0C\>\<#5B83\>\<#7684\>\<#901A\>\<#9879\>\<#4E3A\>
+    <math|y<rsub|m>=1+<frac|1|m>>\<#FF0C\>\<#4E8E\>\<#662F\>
+    <math|x<rsub|n>\<less\>y<rsub|m>> \<#5BF9\>\<#4E00\>\<#5207\>\<#6B63\>\<#6574\>\<#6570\>
+    <math|n> \<#548C\> <math|m> \<#90FD\>\<#6210\>\<#7ACB\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#5FC5\>\<#5B9A\>\<#6709\>
+    <math|x<rsub|n>\<leqslant\>1> (\<#53CD\>\<#8BC1\>\<#6CD5\>)\<#FF0C\>\<#800C\>
+    <math|x<rsub|n>> \<#7684\>\<#5355\>\<#8C03\>\<#6027\>\<#5219\>\<#4FDD\>\<#8BC1\>\<#4E86\>\<#7B49\>\<#53F7\>\<#662F\>\<#4E0D\>\<#80FD\>\<#53D6\>\<#7684\>.
+  </solution>
 
   <chapter|2017\<#5E74\>>
 
@@ -187,7 +249,9 @@
 
     \<#4ECE\><math|i\<geqslant\>4>\<#5F00\>\<#59CB\>\<#653E\>\<#7F29\>\<#FF0C\>\<#7D2F\>\<#52A0\>\<#5373\>\<#5F97\>
 
-    <align*|<tformat|<table|<row|<cell|<big|sum><rsub|i=2><rsup|n><frac|a<rsub|i><rsup|2>|i<rsup|2>>>|<cell|\<less\>2*<around*|(|<frac|1|4>+<frac|1|9>+<around|(|<frac|1|3>-<frac|1|n>|)>+<frac|1|8>+<frac|1|27>+<frac|1|2>*<around|(|<frac|1|12>-<frac|n|n+1>|)>|)>>>|<row|<cell|>|<cell|\<less\>2*<around*|(|<frac|1|4>+<frac|1|9>+<frac|1|3>+<frac|1|8>+<frac|1|27>+<frac|1|24>|)>>>|<row|<cell|>|<cell|=2*<around*|(|<frac|3|4>+<frac|4|27>|)>\<less\><frac|9|5>>>>>>
+    <\align*>
+      <tformat|<table|<row|<cell|<big|sum><rsub|i=2><rsup|n><frac|a<rsub|i><rsup|2>|i<rsup|2>>>|<cell|\<less\>2*<around*|(|<frac|1|4>+<frac|1|9>+<around|(|<frac|1|3>-<frac|1|n>|)>+<frac|1|8>+<frac|1|27>+<frac|1|2>*<around|(|<frac|1|12>-<frac|n|n+1>|)>|)>>>|<row|<cell|>|<cell|\<less\>2*<around*|(|<frac|1|4>+<frac|1|9>+<frac|1|3>+<frac|1|8>+<frac|1|27>+<frac|1|24>|)>>>|<row|<cell|>|<cell|=2*<around*|(|<frac|3|4>+<frac|4|27>|)>\<less\><frac|9|5>>>>>
+    </align*>
   </solution>
 
   <\solution>
@@ -199,7 +263,9 @@
 
     \<#663E\>\<#7136\><math|<frac|n*a<rsub|n>+1|n+1>>\<#662F\><math|a<rsub|n>>\<#548C\>1\<#7684\>\<#52A0\>\<#6743\>\<#5E73\>\<#5747\>\<#FF0C\>\<#56E0\>\<#4E3A\><math|a<rsub|n>\<gtr\>1>\<#6709\><math|<frac|n*a<rsub|n>+1|n+1>\<less\>a<rsub|n>>\<#FF0C\>\<#6240\>\<#4EE5\>\<#6709\>
 
-    <align*|<tformat|<table|<row|<cell|a<rsub|n+1>>|<cell|=<sqrt|a<rsub|n>\<cdot\><frac|n*a<rsub|n>+1|n+1>>>>|<row|<cell|>|<cell|\<less\><frac|1|2>*<around*|(|a<rsub|n>+<frac|n*a<rsub|n>+1|n+1>|)>>>|<row|<cell|>|<cell|=<frac|2*n+1|2*n+2>*a<rsub|n>+<frac|1|2*n+2>>>>>>
+    <\align*>
+      <tformat|<table|<row|<cell|a<rsub|n+1>>|<cell|=<sqrt|a<rsub|n>\<cdot\><frac|n*a<rsub|n>+1|n+1>>>>|<row|<cell|>|<cell|\<less\><frac|1|2>*<around*|(|a<rsub|n>+<frac|n*a<rsub|n>+1|n+1>|)>>>|<row|<cell|>|<cell|=<frac|2*n+1|2*n+2>*a<rsub|n>+<frac|1|2*n+2>>>>>
+    </align*>
 
     \<#53E6\>\<#4E00\>\<#65B9\>\<#9762\>\<#FF0C\>\<#7531\><math|<frac|n*a<rsub|n>+1|n+1>\<less\>a<rsub|n>>\<#FF0C\>\<#6240\>\<#4EE5\>
 
@@ -233,7 +299,9 @@
 
     \<#5BF9\>\<#4E8E\>\<#540E\>\<#9762\>\<#7684\>\<#53CC\>\<#9636\>\<#4E58\>\<#FF0C\>\<#7531\>\<#719F\>\<#77E5\>\<#7684\>\<#653E\>\<#7F29\>
 
-    <align*|<tformat|<table|<row|<cell|>|<cell|<around*|(|<frac|1|2>\<cdot\><frac|3|4>*\<cdots\>*<frac|2*n-1|2*n>|)><rsup|2>>>|<row|<cell|=>|<cell|<around*|(|<frac|1|2>\<cdot\><frac|1|2>|)>*<around*|(|<frac|3|4>\<cdot\><frac|3|4>|)>*\<cdots\>*<around*|(|<frac|2*n-1|2*n>\<cdot\><frac|2*n-1|2*n>|)>>>|<row|<cell|\<less\>>|<cell|<around*|(|<frac|1|2>\<cdot\><frac|2|3>|)>*<around*|(|<frac|3|4>\<cdot\><frac|4|5>|)>*\<cdots\>*<around*|(|<frac|2*n-1|2*n>\<cdot\><frac|2*n|2*n+1>|)>>>|<row|<cell|=>|<cell|<frac|1|2*n+1>>>>>>
+    <\align*>
+      <tformat|<table|<row|<cell|>|<cell|<around*|(|<frac|1|2>\<cdot\><frac|3|4>*\<cdots\>*<frac|2*n-1|2*n>|)><rsup|2>>>|<row|<cell|=>|<cell|<around*|(|<frac|1|2>\<cdot\><frac|1|2>|)>*<around*|(|<frac|3|4>\<cdot\><frac|3|4>|)>*\<cdots\>*<around*|(|<frac|2*n-1|2*n>\<cdot\><frac|2*n-1|2*n>|)>>>|<row|<cell|\<less\>>|<cell|<around*|(|<frac|1|2>\<cdot\><frac|2|3>|)>*<around*|(|<frac|3|4>\<cdot\><frac|4|5>|)>*\<cdots\>*<around*|(|<frac|2*n-1|2*n>\<cdot\><frac|2*n|2*n+1>|)>>>|<row|<cell|=>|<cell|<frac|1|2*n+1>>>>>
+    </align*>
 
     \<#6240\>\<#4EE5\><math|a<rsub|n>>\<#7684\>\<#4F30\>\<#8BA1\>\<#5F0F\>\<#4E24\>\<#7AEF\>\<#90FD\>\<#4EE5\>1\<#4E3A\>\<#6781\>\<#9650\>\<#FF0C\>\<#7531\>\<#5939\>\<#903C\>\<#5B9A\>\<#7406\>\<#FF0C\><math|a<rsub|n>>\<#6781\>\<#9650\>\<#4E3A\>1.
 
@@ -420,7 +488,9 @@
 
     \<#4EE5\>\<#53CA\>
 
-    <align*|<tformat|<table|<row|<cell|<big|sum><rsub|k=2><rsup|n-1><frac|1|k<rsup|2>>>|<cell|\<gtr\><big|sum><rsub|k=2><rsup|n-1><frac|1|k*<around|(|k+1|)>>>>|<row|<cell|>|<cell|=<big|sum><rsub|k=2><rsup|n-1><around*|(|<frac|1|k>-<frac|1|k+1>|)>>>|<row|<cell|>|<cell|=<frac|1|2>-<frac|1|n>>>>>>
+    <\align*>
+      <tformat|<table|<row|<cell|<big|sum><rsub|k=2><rsup|n-1><frac|1|k<rsup|2>>>|<cell|\<gtr\><big|sum><rsub|k=2><rsup|n-1><frac|1|k*<around|(|k+1|)>>>>|<row|<cell|>|<cell|=<big|sum><rsub|k=2><rsup|n-1><around*|(|<frac|1|k>-<frac|1|k+1>|)>>>|<row|<cell|>|<cell|=<frac|1|2>-<frac|1|n>>>>>
+    </align*>
 
     \<#56E0\>\<#6B64\>\<#6709\><math|a<rsub|n><rsup|3>>\<#7684\>\<#4E0B\>\<#754C\>\<#4F30\>\<#8BA1\>\<#5F0F\>
 
@@ -431,13 +501,17 @@
 
     \<#63A5\>\<#4E0B\>\<#6765\>\<#7531\>\<#53CD\>\<#6BD4\>\<#4F8B\>\<#51FD\>\<#6570\>\<#7684\>\<#4E0B\>\<#51F8\>\<#6027\>\<#6709\>
 
-    <align*|<tformat|<table|<row|<cell|<big|sum><rsub|k=2><rsup|n-1><frac|1|3*k+2>>|<cell|\<less\><frac|1|3>*<big|sum><rsub|k=2><rsup|n-1><around*|(|<frac|1|3*k+1>+<frac|1|3*k+2>+<frac|1|3*k+3>|)>>>|<row|<cell|>|<cell|=<frac|1|3>*<big|sum><rsub|k=7><rsup|3*n><frac|1|k>>>|<row|<cell|>|<cell|\<less\><frac|1|3>*<around*|(|1+ln
-    3*n-<around*|(|1+<frac|1|2>+\<cdots\>+<frac|1|6>|)>|)>>>|<row|<cell|>|<cell|\<less\><frac|1|3>*<around*|(|1+ln
-    3*n-ln 7|)>>>>>>
+    <\align*>
+      <tformat|<table|<row|<cell|<big|sum><rsub|k=2><rsup|n-1><frac|1|3*k+2>>|<cell|\<less\><frac|1|3>*<big|sum><rsub|k=2><rsup|n-1><around*|(|<frac|1|3*k+1>+<frac|1|3*k+2>+<frac|1|3*k+3>|)>>>|<row|<cell|>|<cell|=<frac|1|3>*<big|sum><rsub|k=7><rsup|3*n><frac|1|k>>>|<row|<cell|>|<cell|\<less\><frac|1|3>*<around*|(|1+ln
+      3*n-<around*|(|1+<frac|1|2>+\<cdots\>+<frac|1|6>|)>|)>>>|<row|<cell|>|<cell|\<less\><frac|1|3>*<around*|(|1+ln
+      3*n-ln 7|)>>>>>
+    </align*>
 
     \<#4EE5\>\<#53CA\>
 
-    <align*|<tformat|<table|<row|<cell|<big|sum><rsub|k=2><rsup|n-1><frac|1|<around|(|3*k+2|)><rsup|2>>>|<cell|\<less\><big|sum><rsub|k=2><rsup|n-1><frac|1|<around|(|3*k+2|)>*<around|(|3*k-1|)>>>>|<row|<cell|>|<cell|=<frac|1|3>*<big|sum><rsub|k=2><rsup|n-1><around*|(|<frac|1|3*k-1>-<frac|1|3*k+2>|)>>>|<row|<cell|>|<cell|=<frac|1|3>*<around*|(|<frac|1|5>-<frac|1|3*n-1>|)>>>>>>
+    <\align*>
+      <tformat|<table|<row|<cell|<big|sum><rsub|k=2><rsup|n-1><frac|1|<around|(|3*k+2|)><rsup|2>>>|<cell|\<less\><big|sum><rsub|k=2><rsup|n-1><frac|1|<around|(|3*k+2|)>*<around|(|3*k-1|)>>>>|<row|<cell|>|<cell|=<frac|1|3>*<big|sum><rsub|k=2><rsup|n-1><around*|(|<frac|1|3*k-1>-<frac|1|3*k+2>|)>>>|<row|<cell|>|<cell|=<frac|1|3>*<around*|(|<frac|1|5>-<frac|1|3*n-1>|)>>>>>
+    </align*>
 
     \<#4E8E\>\<#662F\>\<#6709\><math|a<rsub|n><rsup|3>>\<#7684\>\<#4E0A\>\<#754C\>\<#4F30\>\<#8BA1\>\<#5F0F\>
 
@@ -658,7 +732,7 @@
   <\collection>
     <associate|auto-1|<tuple|1|3>>
     <associate|auto-2|<tuple|2|5>>
-    <associate|auto-3|<tuple|3|?>>
+    <associate|auto-3|<tuple|3|9>>
   </collection>
 </references>
 
