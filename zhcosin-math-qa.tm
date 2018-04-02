@@ -826,6 +826,14 @@
     <math|x=y=<sqrt|<frac|2|3>>> \<#65F6\>\<#53D6\>\<#5F97\>.
   </solution>
 
+  <\solution>
+    (by kuing)\ 
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|P>|<cell|\<leqslant\>>|<cell|<sqrt|<around*|(|x<rsup|2>+y<rsup|2>|)><around*|(|1-y<rsup|2>+1-x<rsup|2>|)>>+<sqrt|<frac|2|3><around*|(|x<rsup|2>+y<rsup|2>|)>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|t><around*|(|<sqrt|2-t>+<sqrt|<frac|2|3>>|)>>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|<sqrt|t>\<cdot\><sqrt|2<around*|(|2-t+<frac|2|3>|)>>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|2>\<cdot\><sqrt|t<around*|(|<frac|8|3>-t|)>>>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|<frac|4|3><sqrt|2>>>>>
+    </eqnarray*>
+  </solution>
+
   \;
 
   \;
