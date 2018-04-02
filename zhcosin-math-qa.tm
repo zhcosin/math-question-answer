@@ -1,4 +1,4 @@
-<TeXmacs|1.99.5>
+<TeXmacs|1.0.7.21>
 
 <style|<tuple|book|chinese>>
 
@@ -680,6 +680,30 @@
     n|<around*|(|2n-1|)><around*|(|2n+1|)>>\<less\><frac|1|4>
     <around*|(|n\<in\> <with|math-font|Bbb*|N><rsup|+>\<nocomma\>,n\<geqslant\>2|)>>.
   </problem>
+
+  <\solution>
+    (1). <math|a\<geqslant\><frac|1|2>>. \<#8FC7\>\<#7A0B\>\<#7565\>.
+
+    (2). \<#7531\> (1) \<#7684\>\<#7ED3\>\<#8BBA\>\<#FF0C\>\<#53D6\>
+    <math|a=<frac|1|2>>\<#FF0C\>\<#5F97\> <math|ln
+    x\<less\><frac|1|2><around*|(|x-<frac|1|x>|)>>\<#FF0C\>\<#56E0\>\<#6B64\>\<#6709\>
+    <math|ln<around*|(|1+<frac|1|m>|)>\<less\><frac|1|2><around*|(|<frac|1|m>+<frac|1|m+1>|)>>.
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<big|sum><rsub|m=2><rsup|n><frac|ln
+      m|<around*|(|2m-1|)><around*|(|2m+1|)>>>|<cell|=>|<cell|<frac|1|2><big|sum><rsub|m=2><rsup|n><around*|(|<frac|1|2m-1>-<frac|1|2m+1>|)>ln
+      m>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><around*|(|<frac|ln
+      2|3>+<big|sum><rsub|m=2><rsup|n-1><frac|ln<around*|(|m+1|)>-ln
+      m|2m+1>-<frac|ln n|2n+1>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><around*|(|<frac|ln
+      2|3>+<big|sum><rsub|m=2><rsup|n-1><frac|1|2m+1>ln<around*|(|1+<frac|1|m>|)>-<frac|ln
+      n|2n+1>|)>>>|<row|<cell|>|<cell|\<less\>>|<cell|<frac|1|2><around*|(|<frac|ln
+      2|3>+<frac|1|2><big|sum><rsub|m=2><rsup|n-1><frac|1|m<around*|(|m+1|)>>-<frac|ln
+      n|2n+1>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2><around*|(|<frac|ln
+      2|3>+<frac|1|2><around*|(|<frac|1|2>-<frac|1|n>|)>-<frac|ln
+      n|2n+1>|)>>>|<row|<cell|>|<cell|\<less\>>|<cell|<frac|1|2><around*|(|<frac|ln
+      2|3>+<frac|1|4>|)>\<less\><frac|1|2><around*|(|<frac|1|4>+<frac|1|4>|)>=<frac|1|4>>>>>
+    </eqnarray*>
+  </solution>
 
   \;
 
