@@ -793,6 +793,39 @@
 
   \;
 
+  <\problem>
+    (2018-04-02) Let <math|x,y> belong to <math|<around*|(|0,1|)>>, Find the
+    maximum value of the expression
+
+    <\equation*>
+      P=x<sqrt|1-y<rsup|2>>+y<sqrt|1-x<rsup|2>>+<frac|1|<sqrt|3>><around*|(|x+y|)>
+    </equation*>
+  </problem>
+
+  <\solution>
+    \<#4E09\>\<#89D2\>\<#5316\>\<#5427\>\<#FF0C\>\<#8BBE\>
+    <math|x=sin\<alpha\>>,<math|y=sin\<beta\>>,
+    <math|\<alpha\>,\<beta\>\<in\><around*|(|0,<frac|\<pi\>|2>|)>>.\<#4E8E\>\<#662F\>
+    <math|P =f<around*|(|\<alpha\>,\<beta\>|)>>
+    \<#6210\>\<#4E3A\>\<#4E00\>\<#4E2A\>\<#4E8C\>\<#5143\>\<#51FD\>\<#6570\>.\<#89C6\>
+    <math|\<alpha\>> \<#4E3A\>\<#4E3B\>\<#5143\>\<#FF0C\> \<#6709\>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|f<around*|(|\<alpha\>,\<beta\>|)>>|<cell|=>|<cell|<around*|(|cos\<beta\>+<frac|1|<sqrt|3>>|)>sin\<alpha\>+sin\<beta\>cos\<alpha\>+<frac|1|<sqrt|3>>sin\<beta\>>>|<row|<cell|>|<cell|=>|<cell|<sqrt|<around*|(|cos\<beta\>+<frac|1|<sqrt|3>>|)><rsup|2>+sin<rsup|2>\<beta\>>\<cdot\>sin<around*|(|\<alpha\>+\<varphi\>|)>+<frac|1|<sqrt|3>>sin\<beta\>>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|<sqrt|<around*|(|cos\<beta\>+<frac|1|<sqrt|3>>|)><rsup|2>+sin<rsup|2>\<beta\>>+<frac|1|<sqrt|3>>sin\<beta\>=g<around*|(|\<beta\>|)>>>>>
+    </eqnarray*>
+
+    \<#53C8\>\<#7531\>\<#5747\>\<#503C\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#548C\>\<#67EF\>\<#897F\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#FF0C\>\<#5F97\>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|g<around*|(|\<beta\>|)>>|<cell|=>|<cell|<sqrt|<around*|(|cos\<beta\>+<frac|1|<sqrt|3>>|)><rsup|2>+sin<rsup|2>\<beta\>>+<frac|1|<sqrt|3>>sin\<beta\>>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|<sqrt|2<around*|(|cos<rsup|2>\<beta\>+<frac|1|3>|)>+sin<rsup|2>\<beta\>>+<frac|1|<sqrt|3>>sin\<beta\>>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|<sqrt|<around*|(|1<rsup|2>+<around*|(|<frac|1|<sqrt|3>>|)><rsup|2>|)><around*|(|<around*|(|<sqrt|2<around*|(|cos<rsup|2>\<beta\>+<frac|1|3>|)>+sin<rsup|2>\<beta\>>|)><rsup|2>+sin<rsup|2>\<beta\>|)>>>>|<row|<cell|>|<cell|=>|<cell|<frac|4<sqrt|2>|3>>>>>
+    </eqnarray*>
+
+    \<#53D6\>\<#7B49\>\<#6761\>\<#4EF6\>: <math|\<alpha\>=\<beta\>>,
+    <math|cos<rsup|>\<beta\>=<frac|1|<sqrt|3>>>,
+    <math|sin\<beta\>=<sqrt|<frac|2|3>>>\<#FF0C\>\<#5373\>
+    <math|x=y=<sqrt|<frac|2|3>>> \<#65F6\>\<#53D6\>\<#5F97\>.
+  </solution>
+
   \;
 
   \;
