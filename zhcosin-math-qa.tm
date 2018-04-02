@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.21>
+<TeXmacs|1.99.5>
 
 <style|<tuple|book|chinese>>
 
@@ -427,6 +427,50 @@
   </solution>
 
   \;
+
+  <\problem>
+    (2017-06-29) \<#5728\> <math|\<triangle\>A B C>
+    \<#4E2D\>\<#6210\>\<#7ACB\> <math|b+c=2a>\<#FF0C\>\<#6C42\>\<#8BC1\>:
+    <math|O I\<perp\>A I>\<#FF0C\>\<#8FD9\>\<#91CC\> <math|O> \<#548C\>
+    <math|I> \<#5206\>\<#522B\>\<#8868\>\<#793A\>\<#5916\>\<#5FC3\>\<#548C\>\<#5185\>\<#5FC3\>.
+  </problem>
+
+  <\solution>
+    \<#53EA\>\<#9700\>\<#8BC1\>\<#660E\> <math|A O<rsup|2>=O I<rsup|2>+A
+    I<rsup|2>>\<#FF0C\>\<#8BB0\>\<#5916\>\<#63A5\>\<#5706\>\<#534A\>\<#5F84\>\<#548C\>\<#5185\>\<#5207\>\<#5706\>\<#534A\>\<#5F84\>\<#5206\>\<#522B\>\<#4E3A\>
+    <math|R> \<#548C\> <math|r>\<#FF0C\>\<#7531\>\<#51E0\>\<#4F55\>\<#5173\>\<#7CFB\>\<#53CA\>\<#6B27\>\<#62C9\>\<#516C\>\<#5F0F\>\<#6709\>
+
+    <\equation*>
+      A O=R,<space|1spc>O I<rsup|2>=R<rsup|2>-2R r,<space|1spc>A
+      I=<frac|r|sin<frac|A|2>>
+    </equation*>
+
+    \<#4EE5\>\<#4E0A\>\<#4E09\>\<#5F0F\>\<#4EE3\>\<#5165\>\<#52FE\>\<#80A1\>\<#5F0F\>\<#540E\>\<#77E5\>\<#53EA\>\<#9700\>\<#8BC1\>
+
+    <\equation*>
+      <frac|r|R>=2sin<rsup|2><frac|A|2>
+    </equation*>
+
+    \<#800C\>
+
+    <\equation*>
+      R=<frac|a|2sin A>,<space|1spc>r=<frac|1|2><around*|(|b+c-a|)>tan<frac|A|2>=<frac|1|2>a
+      tan<frac|A|2>
+    </equation*>
+
+    \<#7531\>\<#6B64\>\<#5373\>\<#77E5\>\<#8981\>\<#8BC1\>\<#7684\>\<#7B49\>\<#5F0F\>\<#6210\>\<#7ACB\>\<#3002\>
+  </solution>
+
+  <\solution>
+    (by \<#9B4F\>\<#5B50\>\<#8C6A\>) \<#8BBE\>\<#89D2\>\<#5E73\>\<#5206\>\<#7EBF\>
+    <math|A I> \<#4EA4\> <math|B C> \<#8FB9\>\<#4E8E\>
+    <math|E>\<#FF0C\>\<#4EA4\>\<#5916\>\<#63A5\>\<#5706\>\<#4E8E\>\<#53E6\>\<#4E00\>\<#70B9\>
+    <math|D>\<#FF0C\>\<#5219\>\<#6613\>\<#8BC1\> <math|A I=2I
+    E>\<#FF0C\>\<#53C8\> <math|D C:D E=B A:B E=2:1> \<#4EE5\>\<#53CA\>
+    <math|D C=D I> \<#77E5\> <math|I E=E D>\<#FF0C\>\<#4E8E\>\<#662F\>
+    <math|I> \<#4E3A\> <math|A D> \<#4E2D\>\<#70B9\>\<#FF0C\>\<#7531\>\<#5782\>\<#5F84\>\<#5B9A\>\<#7406\>\<#5F97\>
+    <math|A I\<perp\>A D>.
+  </solution>
 
   <chapter|2018 \<#5E74\>>
 
