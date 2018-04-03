@@ -882,7 +882,44 @@
 
   \;
 
-  \;
+  <\problem>
+    (2018-04-03, tommywong, http://kuing.orzweb.net/viewthread.php?tid=5277)\ 
+
+    \<#6570\>\<#5217\> <math|<around*|{|a<rsub|n>|}>> \<#7531\>
+    <math|a<rsub|1>=1> \<#4EE5\>\<#53CA\>
+    <math|a<rsub|n+1>=<frac|a<rsub|n>|n>+<frac|n|a<rsub|n>>>
+    \<#51B3\>\<#5B9A\>\<#FF0C\>\<#6C42\>\<#8BC1\>:
+    <math|<sqrt|2017>\<less\>a<rsub|2017>\<less\><frac|2017|<sqrt|2016>>>.
+  </problem>
+
+  <\solution>
+    \<#6211\>\<#4EEC\>\<#7528\>\<#6570\>\<#5B66\>\<#5F52\>\<#7EB3\>\<#6CD5\>\<#8BC1\>\<#660E\>\<#FF0C\>\<#5F53\>
+    <math|n\<gtr\>2> \<#65F6\>\<#6709\> <math|<sqrt|n>\<less\>a<rsub|n>\<less\><sqrt|n-1>+<frac|1|<sqrt|n-1>>=<frac|n|<sqrt|n-1>>>
+    \<#6210\>\<#7ACB\>.
+
+    \<#5BB9\>\<#6613\>\<#9A8C\>\<#8BC1\> <math|n=3>
+    \<#65F6\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#6210\>\<#7ACB\>\<#FF0C\>\<#5047\>\<#5982\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#5BF9\>
+    <math|n> \<#4E5F\>\<#6210\>\<#7ACB\>\<#FF0C\>\<#6765\>\<#770B\>
+    <math|n+1> \<#7684\>\<#60C5\>\<#51B5\>. \<#7531\>\<#51FD\>\<#6570\>
+    <math|f<around*|(|x,t|)>=<frac|x|t>+<frac|t|x><around*|(|t\<gtr\>0|)>>
+    \<#5728\>\<#533A\>\<#95F4\> <math|<around*|(|0,t|)>>
+    \<#4E0A\>\<#5355\>\<#8C03\>\<#51CF\>\<#5C11\>\<#5E76\>\<#4E14\>\<#5728\>
+    <math|<around*|(|t,+\<infty\>|)>> \<#4E0A\>\<#5355\>\<#8C03\>\<#589E\>\<#52A0\>\<#FF0C\>\<#53EF\>\<#5F97\>
+
+    <\equation*>
+      a<rsub|n+1>=<frac|a<rsub|n>|n>+<frac|n|a<rsub|n>>=f<around*|(|a<rsub|n>,n|)>\<less\>f<around*|(|<sqrt|n>,n|)>=<sqrt|n>+<frac|1|<sqrt|n>>
+    </equation*>
+
+    \<#4E8E\>\<#662F\>\<#6B32\>\<#8BC1\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#7684\>\<#53F3\>\<#7AEF\>\<#5728\>
+    <math|n+1> \<#65F6\>\<#6210\>\<#7ACB\>. \<#540C\>\<#7406\>\<#6709\>
+
+    <\equation*>
+      a<rsub|n+1><rsup|2>=2+<frac|a<rsub|n><rsup|2>|n<rsup|2>>+<frac|n<rsup|2>|a<rsub|n><rsup|2>>=2+f<around*|(|a<rsub|n><rsup|2>,n<rsup|2>|)>\<gtr\>2+f<around*|(|<frac|n<rsup|2>|n-1>,n<rsup|2>|)>=2+<frac|1|n-1>+<around*|(|n-1|)>\<gtr\>n+1
+    </equation*>
+
+    \<#5373\> <math|a<rsub|n+1>\<gtr\><sqrt|n+1>>\<#FF0C\>\<#4E8E\>\<#662F\>\<#6B32\>\<#8BC1\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#7684\>\<#5DE6\>\<#7AEF\>\<#5728\>
+    <math|n+1> \<#65F6\>\<#4E5F\>\<#662F\>\<#6210\>\<#7ACB\>\<#7684\>.
+  </solution>
 
   \;
 
