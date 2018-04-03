@@ -106,7 +106,7 @@
 
   <\proof>
     \<#8BBE\> <math|\<b-a\>=<around*|(|a<rsub|1>,
-    a<rsub|2>\<nocomma\>,\<cdots\>,a<rsub|n>|)>>\<#FF0C\><math|\<b-b\>=<around*|(|b<rsub|1>,b<rsub|2>,\<cdots\>,b<rsub|n>|)>>\<#FF0C\>\<#5219\>\<#53EA\>\<#9700\>\<#8BC1\>
+    a<rsub|2>\<nocomma\>,\<cdots\>,a<rsub|n>|)>>\<#FF0C\><math|\<b-b\>=<around*|(|b<rsub|1>,b<rsub|2>,\<cdots\>,b<rsub|n>|)>>\<#FF0C\>\<#5219\>\<#53EA\>\<#9700\>\<#8BC1\>(\<#95F5\>\<#53EF\>\<#592B\>\<#65AF\>\<#57FA\>\<#4E0D\>\<#7B49\>\<#5F0F\>)
 
     <\equation*>
       <sqrt|<big|sum><rsub|i=1><rsup|n><around*|(|a<rsub|i>+b<rsub|i>|)><rsup|2>>\<leqslant\><sqrt|<big|sum><rsub|i=1><rsup|n>a<rsub|i><rsup|2>>+<sqrt|<big|sum><rsub|i=1><rsup|n>b<rsub|i><rsup|2>>
@@ -145,7 +145,29 @@
     <tformat|<table|<row|<cell|\<b-a\>\<cdot\>\<b-b\>>|<cell|=>|<cell|\<b-b\>\<cdot\>\<b-a\>>>|<row|<cell|<around*|(|\<b-a\>+\<b-b\>|)>\<cdot\>\<b-c\>>|<cell|=>|<cell|\<b-a\>\<cdot\>\<b-c\>+\<b-b\>\<cdot\>\<b-c\>>>|<row|<cell|<around*|(|\<lambda\>\<b-a\>|)>\<cdot\>\<b-b\>>|<cell|=>|<cell|\<lambda\><around*|(|\<b-a\>\<cdot\>\<b-b\>|)>>>>>
   </eqnarray*>
 
-  \;
+  \<#5411\>\<#91CF\>\<#7684\>\<#5185\>\<#79EF\>\<#4E0E\>\<#6A21\>\<#6EE1\>\<#8DB3\>\<#5982\>\<#4E0B\>\<#5B9A\>\<#7406\>
+
+  <\theorem>
+    <math|<around*|\||\<b-a\>\<cdot\>\<b-b\>|\|>\<leqslant\><around*|\||\<b-a\>|\|>\<cdot\><around*|\||\<b-b\>|\|>>
+  </theorem>
+
+  <\proof>
+    \<#53EA\>\<#9700\>\<#8BC1\>\<#660E\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#FF08\>\<#67EF\>\<#897F\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#FF09\>
+
+    <\equation*>
+      <around*|(|<big|sum><rsub|i=1><rsup|n>a<rsub|i>b<rsub|i>|)><rsup|2>\<leqslant\><around*|(|<big|sum><rsub|i=1><rsup|n>a<rsub|i><rsup|2>|)><around*|(|<big|sum><rsub|i=1><rsup|n>b<rsub|i><rsup|2>|)>
+    </equation*>
+
+    \<#5C31\>\<#53EF\>\<#4EE5\>\<#4E86\>\<#FF0C\>\<#8FD9\>\<#7531\>\<#6052\>\<#7B49\>\<#5F0F\>
+
+    <\equation*>
+      <around*|(|<big|sum><rsub|i=1><rsup|n>a<rsub|i><rsup|2>|)><around*|(|<big|sum><rsub|i=1><rsup|n>b<rsub|i><rsup|2>|)>-<around*|(|<big|sum><rsub|i=1><rsup|n>a<rsub|i>b<rsub|i>|)><rsup|2>=<big|sum><rsub|1\<leqslant\>i,j\<leqslant\>n><around*|(|a<rsub|i>b<rsub|j>-a<rsub|j>b<rsub|i>|)><rsup|2>
+    </equation*>
+
+    \<#7ACB\>\<#5F97\>.
+
+    \;
+  </proof>
 
   <subsection|\<#7EBF\>\<#6027\>\<#76F8\>\<#5173\>\<#6027\>>
 
