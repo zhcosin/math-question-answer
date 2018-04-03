@@ -5,6 +5,29 @@
 <\body>
   <doc-data|<doc-title|\<#5411\>\<#91CF\>>|<doc-author|<author-data|<author-name|zhcosin>>>>
 
+  <\table-of-contents|toc>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|1<space|2spc>\<#4E3A\>\<#4EC0\>\<#4E48\>\<#5199\>\<#8FD9\>\<#7BC7\>\<#6587\>\<#7AE0\>\<#FF0C\>\<#4ECE\>\<#5411\>\<#91CF\>\<#4E0E\>\<#6709\>\<#5411\>\<#7EBF\>\<#6BB5\>\<#7684\>\<#5173\>\<#7CFB\>\<#8C08\>\<#8D77\>>
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-1><vspace|0.5fn>
+
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|2<space|2spc>\<#4ECE\>\<#4EE3\>\<#6570\>\<#89D2\>\<#5EA6\>\<#91CD\>\<#5EFA\>\<#5411\>\<#91CF\>\<#7406\>\<#8BBA\>>
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-2><vspace|0.5fn>
+
+    <with|par-left|1tab|2.1<space|2spc>\<#5411\>\<#91CF\>\<#6982\>\<#5FF5\>\<#53CA\>\<#5176\>\<#8FD0\>\<#7B97\>
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-3>>
+
+    <with|par-left|1tab|2.2<space|2spc>\<#7EBF\>\<#6027\>\<#76F8\>\<#5173\>\<#4E0E\>\<#7EBF\>\<#6027\>\<#65E0\>\<#5173\>
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-4>>
+
+    <with|par-left|1tab|2.3<space|2spc><with|mode|math|n>
+    \<#7EF4\>\<#5411\>\<#91CF\>\<#7A7A\>\<#95F4\>
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-5>>
+  </table-of-contents>
+
   <section|\<#4E3A\>\<#4EC0\>\<#4E48\>\<#5199\>\<#8FD9\>\<#7BC7\>\<#6587\>\<#7AE0\>\<#FF0C\>\<#4ECE\>\<#5411\>\<#91CF\>\<#4E0E\>\<#6709\>\<#5411\>\<#7EBF\>\<#6BB5\>\<#7684\>\<#5173\>\<#7CFB\>\<#8C08\>\<#8D77\>>
 
   \;
@@ -414,7 +437,7 @@
     <associate|auto-2|<tuple|2|1>>
     <associate|auto-3|<tuple|2.1|1>>
     <associate|auto-4|<tuple|2.2|3>>
-    <associate|auto-5|<tuple|2.3|?>>
+    <associate|auto-5|<tuple|2.3|3>>
   </collection>
 </references>
 
