@@ -1029,6 +1029,40 @@
 
   \;
 
+  <\problem>
+    (2018-06-07, 2018 \<#9AD8\>\<#8003\>\<#7406\>\<#79D1\>\<#6570\>\<#5B66\>12\<#9898\>)
+
+    \<#5DF2\>\<#77E5\> <math|F<rsub|1>>\<#3001\><math|F<rsub|2>>
+    \<#662F\>\<#692D\>\<#5706\> <math|C:<frac|x<rsup|2>|a<rsup|2>>+<frac|y<rsup|2>|b<rsup|2>>=1<around*|(|a\<gtr\>b\<gtr\>0|)>>
+    \<#7684\>\<#5DE6\>\<#3001\>\<#53F3\>\<#7126\>\<#70B9\>\<#FF0C\>\<#70B9\>
+    <math|A> \<#662F\> <math|C> \<#7684\>\<#5DE6\>\<#9876\>\<#70B9\>\<#FF0C\>\<#70B9\>
+    <math|P> \<#5728\>\<#8FC7\> <math|A> \<#4E14\>\<#659C\>\<#7387\>\<#4E3A\>
+    <math|<frac|<sqrt|3>|6>> \<#7684\>\<#76F4\>\<#7EBF\>\<#4E0A\>\<#FF0C\><math|\<triangle\>P
+    F<rsub|1>F<rsub|2>> \<#662F\>\<#7B49\>\<#8170\>\<#4E09\>\<#89D2\>\<#5F62\>\<#FF0C\><math|\<angle\>F<rsub|1>F<rsub|2>P=120<rsup|\<circ\>>>\<#FF0C\>\<#5219\>
+    <math|C> \<#7684\>\<#79BB\>\<#5FC3\>\<#7387\>\<#662F\>: (A).
+    <math|<frac|2|3>> \ (B). <frac|1|2> (C). <frac|1|3> (D). <frac|1|4>
+  </problem>
+
+  <\solution>
+    \<#7B49\>\<#8170\>\<#4E09\>\<#89D2\>\<#5F62\>\<#53EA\>\<#6709\>\<#9876\>\<#89D2\>\<#53EF\>\<#4EE5\>\<#662F\>\<#949D\>\<#89D2\>\<#FF0C\>\<#6240\>\<#4EE5\>
+    <math|F<rsub|1>F<rsub|2>=F<rsub|2>P=2c>.\<#5E76\>\<#4E14\>
+    <math|\<angle\>P F<rsub|1>F<rsub|2>=30<rsup|\<circ\>>>\<#FF0C\>\<#8FC7\>\<#70B9\>
+    <math|P> \<#4F5C\>\<#76F4\>\<#7EBF\> <math|F<rsub|1>F<rsub|2>>
+    \<#7684\>\<#5782\>\<#7EBF\>\<#FF0C\>\<#5782\>\<#8DB3\>\<#4E3A\>
+    <math|Q>\<#FF0C\>\<#5219\> <math|P Q=P F<rsub|2>
+    sin\<angle\>F<rsub|1>F<rsub|2>P=<sqrt|3>c>\<#FF0C\>\<#800C\>
+    <math|F<rsub|2>Q=P F<rsub|2>cos\<angle\>P F<rsub|2>Q=c>\<#FF0C\>\<#5728\>
+    <math|Rt\<triangle\>P A Q>\<#4E2D\>.\<#6709\>\ 
+
+    <\equation*>
+      <frac|<sqrt|3>|6>=tan\<angle\>P A Q=<frac|P Q|A Q>=<frac|P Q|A
+      F<rsub|1>+F<rsub|1>F<rsub|2>+F<rsub|2>Q>=<frac|<sqrt|3>c|<around*|(|a-c|)>+2c+c>=<frac|<sqrt|3>c|a+2c>
+    </equation*>
+
+    \<#4E8E\>\<#662F\> <math|a=4c>\<#FF0C\>\<#5373\> <math|e=<frac|1|4>>.
+    <math|>
+  </solution>
+
   \;
 
   \;
