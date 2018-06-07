@@ -991,7 +991,41 @@
 
   \;
 
-  \;
+  <\problem>
+    (2018-06-07, 2018\<#5E74\>\<#9AD8\>\<#8003\>\<#FF0C\>\<#9898\>\<#53F7\>\<#4E0D\>\<#8BE6\>)
+
+    \<#5DF2\>\<#77E5\>\<#51FD\>\<#6570\> <math|f<around*|(|x|)>=<sqrt|x>-ln
+    x>.
+
+    (1) \<#82E5\> <math|f<around*|(|x|)>> \<#5728\>
+    <math|x=x<rsub|1>,x<rsub|2><around*|(|x<rsub|1>\<neq\>x<rsub|2>|)>>
+    \<#5904\>\<#5BFC\>\<#6570\>\<#76F8\>\<#7B49\>\<#FF0C\>\<#8BC1\>\<#660E\>:
+    <math|f<around*|(|x<rsub|1>|)>+f<around*|(|x<rsub|2>|)>\<gtr\>8-8ln2>.
+
+    (2) \<#82E5\> <math|a\<leqslant\>3-4ln2>,\<#8BC1\>\<#660E\>\<#FF1A\>\<#5BF9\>\<#4E8E\>\<#4EFB\>\<#610F\>
+    <math|k\<gtr\>0>\<#FF0C\>\<#76F4\>\<#7EBF\> <math|y=k x+a>
+    \<#4E0E\>\<#66F2\>\<#7EBF\> <math|y=f<around*|(|x|)>>
+    \<#6709\>\<#552F\>\<#4E00\>\<#516C\>\<#5171\>\<#70B9\>.
+  </problem>
+
+  <\solution>
+    (1) \<#5BFC\>\<#51FD\>\<#6570\> <math|f<rprime|'><around*|(|x|)>=<frac|1|2<sqrt|x>>-<frac|1|x>>\<#FF0C\>\<#56E0\>\<#6B64\>\<#7531\>
+    <math|f<rprime|'><around*|(|x<rsub|1>|)>=f<rprime|'><around*|(|x<rsub|2>|)>>
+    \<#5F97\> <math|<frac|1|2<sqrt|x<rsub|1>>>-<frac|1|x<rsub|1>>=<frac|1|2<sqrt|x<rsub|2>>>-<frac|1|x<rsub|2>>>\<#FF0C\>\<#6574\>\<#7406\>\<#5F97\>
+    <math|<sqrt|x<rsub|1>x<rsub|2>>=2<around*|(|<sqrt|x<rsub|1>>+<sqrt|x<rsub|2>>|)>>\<#FF0C\>\<#4E8E\>\<#662F\>\<#6709\>
+
+    <\equation*>
+      <sqrt|x<rsub|1>x<rsub|2>>=2<around*|(|<sqrt|x<rsub|1>>+<sqrt|x<rsub|2>>|)>\<gtr\>4<sqrt|<sqrt|x<rsub|1>x<rsub|2>>>
+    </equation*>
+
+    \<#6240\>\<#4EE5\> <math|x<rsub|1>x<rsub|2>\<gtr\>16>.\<#800C\>
+    <math|f<around*|(|x<rsub|1>|)>+f<around*|(|x<rsub|2>|)>=<sqrt|x<rsub|1>>+<sqrt|x<rsub|2>>-<around*|(|ln
+    x<rsub|1>+ln x<rsub|2>|)>=<frac|1|2><sqrt|x<rsub|1>x<rsub|2>>-ln
+    x<rsub|1>x<rsub|2>> ,\<#6C42\>\<#8BC1\>\<#6613\>\<#8BC1\>\<#51FD\>\<#6570\>
+    <math|h<around*|(|t|)>=<frac|1|2><sqrt|t>-ln t> \<#5728\>
+    <math|<around*|[|16,+\<infty\>|)>> \<#4E0A\>\<#662F\>\<#589E\>\<#51FD\>\<#6570\>\<#FF0C\>\<#6240\>\<#4EE5\>
+    <math|f<around*|(|x<rsub|1>|)>+f<around*|(|x<rsub|2>|)>=h<around*|(|x<rsub|1>x<rsub|2>|)>\<gtr\>h<around*|(|16|)>=8-8ln2>.
+  </solution>
 
   \;
 
