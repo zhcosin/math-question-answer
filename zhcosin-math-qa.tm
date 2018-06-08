@@ -1250,13 +1250,13 @@
       <tformat|<table|<row|<cell|f<around*|(|x<rsub|1>|)>>|<cell|=>|<cell|<frac|1|3>x<rsub|1><rsup|3>-a<around*|(|x<rsub|1><rsup|2>+x<rsub|1>+1|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|3>x<rsub|1>\<cdot\><around*|(|2a
       x<rsub|1>+a|)>-a<around*|(|x<rsub|1><rsup|2>+x<rsub|1>+1|)>>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|3>a
       x<rsub|1><rsup|2>-<frac|2|3>a x<rsub|1>-a>>|<row|<cell|>|<cell|=>|<cell|-<frac|1|3>a<around*|(|2a
-      x<rsub|1>+a|)>-<frac|2|3>a x<rsub|1>-a>>|<row|<cell|>|<cell|=>|<cell|-<frac|2|3><around*|(|a<rsup|2>+a|)>x<rsub|1>-a>>|<row|<cell|>|<cell|=>|<cell|-a<around*|(|<frac|2|3><around*|(|a+1|)>x<rsub|1>+1|)>>>|<row|<cell|>|<cell|=>|<cell|-a<around*|(|<frac|2|3><around*|(|a+1|)><around*|(|a-<sqrt|a<rsup|2>+a>|)>+1|)>>>>>
+      x<rsub|1>+a|)>-<frac|2|3>a x<rsub|1>-a>>|<row|<cell|>|<cell|=>|<cell|-<frac|2|3>a<around*|(|a+1|)>x<rsub|1>-<frac|1|3>a<rsup|2>-a>>|<row|<cell|>|<cell|=>|<cell|-a<around*|(|<frac|2|3><around*|(|a+1|)>x<rsub|1>+<frac|1|3>a+1|)>>>|<row|<cell|>|<cell|=>|<cell|-a<around*|(|<frac|2|3><around*|(|a+1|)><around*|(|a-<sqrt|a<rsup|2>+a>|)>+<frac|1|3>a+1|)>>>>>
     </eqnarray*>
 
     \<#540C\>\<#7406\>\<#6709\>
 
     <\eqnarray*>
-      <tformat|<table|<row|<cell|f<around*|(|x<rsub|2>|)>>|<cell|=>|<cell|-a<around*|(|<frac|2|3><around*|(|a+1|)>x<rsub|2>+1|)>>>|<row|<cell|>|<cell|=>|<cell|-a<around*|(|<frac|2|3><around*|(|a+1|)><around*|(|a+<sqrt|a<rsup|2>+a>|)>+1|)>>>>>
+      <tformat|<table|<row|<cell|f<around*|(|x<rsub|2>|)>>|<cell|=>|<cell|-a<around*|(|<frac|2|3><around*|(|a+1|)>x<rsub|2>+<frac|1|3>a+1|)>>>|<row|<cell|>|<cell|=>|<cell|-a<around*|(|<frac|2|3><around*|(|a+1|)><around*|(|a+<sqrt|a<rsup|2>+a>|)>+<frac|1|3>a+1|)>>>>>
     </eqnarray*>
 
     \<#63A5\>\<#4E0B\>\<#6765\>\<#9A8C\>\<#8BC1\>\<#FF0C\>\<#5F53\>
@@ -1265,14 +1265,23 @@
     <math|a\<gtr\>0> \<#65F6\>\<#6709\> <math|f<around*|(|x<rsub|1>|)>\<less\>0>.
 
     \<#5F53\> <math|a\<less\> -1> \<#65F6\>,
-    <math|a+1\<less\>0>\<#FF0C\>\<#5E76\>\<#4E14\>(\<#5E73\>\<#65B9\>\<#5373\>\<#77E5\>)
-    <math|<around*|\||a|\|>\<gtr\><sqrt|a<rsup|2>+a>>\<#FF0C\>\<#6240\>\<#4EE5\>
-    <math|a+<sqrt|a<rsup|2>+a>\<less\>0>\<#FF0C\>\<#4ECE\>\<#800C\>
-    <math|f<around*|(|x<rsub|2>|)>\<gtr\>0>.
+    \<#5BB9\>\<#6613\>\<#9A8C\>\<#8BC1\>\<#6709\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+    <math|<sqrt|1+r>\<leqslant\>1+<frac|r|2>>\<#FF0C\>\<#4E14\>\<#7B49\>\<#53F7\>\<#4EC5\>\<#5728\>
+    <math|r=0> \<#65F6\>\<#53D6\>\<#5F97\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#6709\>
 
-    \<#5F53\> <math|a\<gtr\>0> \<#65F6\>\<#FF0C\>
-    <math|<frac|2|3><around*|(|a+1|)><around*|(|a-<sqrt|a<rsup|2>+a>|)>+1=<frac|2|3><around*|(|a+1|)><frac|-a|a+<sqrt|a<rsup|2>+a>>+1\<gtr\><frac|1|3><around*|(|a+1|)>\<cdot\><frac|-a|2a>+1\<gtr\>0>\<#FF0C\>\<#4ECE\>\<#800C\>
-    <math|f<around*|(|x<rsub|1>|)>\<less\>0>.
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<frac|2|3><around*|(|a+1|)><around*|(|a+<sqrt|a<rsup|2>+a>|)>+<frac|1|3>a+1>|<cell|=>|<cell|-<frac|2|3>a<around*|(|a+1|)><around*|(|-1+<sqrt|1+<frac|1|a>>|)>+<frac|1|3>a+1>>|<row|<cell|>|<cell|\<gtr\>>|<cell|-<frac|2|3>a<around*|(|a+1|)><around*|(|-1+1+<frac|1|2a>|)>+<frac|1|3>a+1>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>\<gtr\>0>>>>
+    </eqnarray*>
+
+    \<#4ECE\>\<#800C\> <math|f<around*|(|x<rsub|2>|)>\<gtr\>0>.
+
+    \<#5F53\> <math|a\<gtr\>0> \<#65F6\>\<#FF0C\> \<#6709\>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<frac|2|3><around*|(|a+1|)><around*|(|a-<sqrt|a<rsup|2>+a>|)>+<frac|1|3>a+1>|<cell|=>|<cell|<frac|2|3><around*|(|a+1|)><frac|-a|a+<sqrt|a<rsup|2>+a>>+<frac|1|3>a+1>>|<row|<cell|>|<cell|\<gtr\>>|<cell|<frac|2|3><around*|(|a+1|)>\<cdot\><frac|-a|2a>+<frac|1|3>a+1>>|<row|<cell|>|<cell|=>|<cell|<frac|2|3>\<gtr\>0>>>>
+    </eqnarray*>
+
+    \ \<#4ECE\>\<#800C\> <math|f<around*|(|x<rsub|1>|)>\<less\>0>.
 
     \<#7EFC\>\<#4E0A\>\<#FF0C\>\<#7ED3\>\<#8BBA\>\<#5F97\>\<#8BC1\>.
 
