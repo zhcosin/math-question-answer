@@ -1346,7 +1346,14 @@
     (A). <math|-50> (B). 0 (C). 2 (D). 50
   </problem>
 
-  \;
+  <\solution>
+    \<#6709\> <math|f<around*|(|x+2|)>=f<around*|(|1+<around*|(|1+x|)>|)>=f<around*|(|1-<around*|(|1+x|)>|)>=f<around*|(|-x|)>=-f<around*|(|x|)>>\<#FF0C\>\<#4ECE\>\<#800C\>\<#66F4\>\<#6709\>
+    <math|f<around*|(|x+4|)>=-f<around*|(|x+2|)>=f<around*|(|x|)>>\<#FF0C\>\<#6240\>\<#4EE5\>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|f<around*|(|1|)>+f<around*|(|2|)>+\<cdots\>+f<around*|(|50|)>>|<cell|=>|<cell|12<around*|(|f<around*|(|1|)>+f<around*|(|2|)>+f<around*|(|3|)>+f<around*|(|4|)>|)>+f<around*|(|1|)>+f<around*|(|2|)>>>|<row|<cell|>|<cell|=>|<cell|f<around*|(|1|)>+f<around*|(|2|)>>>|<row|<cell|>|<cell|=>|<cell|f<around*|(|1|)>+f<around*|(|0|)>>>|<row|<cell|>|<cell|=>|<cell|2>>>>
+    </eqnarray*>
+  </solution>
 
   <\problem>
     (2018-06-10, 2018\<#9AD8\>\<#8003\>\<#5168\>\<#56FD\>\<#5377\>2\<#7406\>\<#79D1\>\<#7B2C\>16\<#9898\>)
