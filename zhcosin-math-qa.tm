@@ -1553,11 +1553,101 @@
 
   \ 
 
-  \;
+  <\problem>
+    (2018-06-10, 2018\<#9AD8\>\<#8003\>\<#6D59\>\<#6C5F\>\<#5377\>\<#7B2C\>17\<#9898\>)
+
+    \<#5DF2\>\<#77E5\>\<#70B9\> <math|P<around*|(|0,1|)>>\<#FF0C\>\<#692D\>\<#5706\>
+    <math|<frac|x<rsup|2>|4>+y<rsup|2>=m<around*|(|m\<gtr\>1|)>>
+    \<#4E0A\>\<#4E24\>\<#70B9\> <math|A>\<#3001\><math|B> \<#6EE1\>\<#8DB3\>
+    <math|<wide|A P|\<vect\>>=2<wide|P B|\<vect\>>>\<#FF0C\>\<#5219\>\<#5F53\>
+    <math|m=><underline|<space|3em>> \<#65F6\>\<#FF0C\>\<#70B9\> <math|B>
+    \<#6A2A\>\<#5750\>\<#6807\>\<#7684\>\<#7EDD\>\<#5BF9\>\<#503C\>\<#6700\>\<#5927\>.
+  </problem>
 
   \;
 
+  <\problem>
+    (2018-06-10, 2018\<#9AD8\>\<#8003\>\<#5929\>\<#6D25\>\<#5377\>\<#7406\>\<#79D1\>\<#7B2C\>20\<#9898\>)
+
+    \<#5DF2\>\<#77E5\>\<#51FD\>\<#6570\> <math|f<around*|(|x|)>=a<rsup|x>>\<#FF0C\><math|g<around*|(|x|)>=log<rsub|a>x>\<#FF0C\>\<#5176\>\<#4E2D\>
+    <math|a\<gtr\>1>.
+
+    (1) \<#6C42\>\<#51FD\>\<#6570\> <math|h<around*|(|x|)>=f<around*|(|x|)>-x
+    ln a> \<#7684\>\<#5355\>\<#8C03\>\<#533A\>\<#95F4\>.
+
+    (2) \<#82E5\>\<#66F2\>\<#7EBF\> <math|y=f<around*|(|x|)>>
+    \<#5728\>\<#70B9\> <math|<around*|(|x<rsub|1>,f<around*|(|x<rsub|1>|)>|)>>
+    \<#5904\>\<#7684\>\<#5207\>\<#7EBF\>\<#4E0E\>\<#66F2\>\<#7EBF\>
+    <math|y=g<around*|(|x|)>> \<#5728\>\<#70B9\>
+    <math|<around*|(|x<rsub|2>,g<around*|(|x<rsub|2>|)>|)>>
+    \<#5904\>\<#7684\>\<#5207\>\<#7EBF\>\<#5E73\>\<#884C\>\<#FF0C\>\<#8BC1\>\<#660E\>:
+    <math|x<rsub|1>+g<around*|(|x<rsub|2>|)>=-<frac|2ln ln a|ln a>>.
+
+    (3) \<#8BC1\>\<#660E\>\<#5F53\> <math|a\<gtr\><with|math-font-family|rm|e<rsup|<frac|1|<with|math-font-family|rm|e>>>>>
+    \<#65F6\>\<#FF0C\>\<#5B58\>\<#5728\>\<#76F4\>\<#7EBF\>
+    <math|l>\<#FF0C\>\<#4F7F\> <math|l> \<#662F\>\<#66F2\>\<#7EBF\>
+    <math|y=f<around*|(|x|)>> \<#7684\>\<#5207\>\<#7EBF\>\<#FF0C\>\<#4E5F\>\<#662F\>\<#66F2\>\<#7EBF\>
+    <math|y=g<around*|(|x|)>> \<#7684\>\<#5207\>\<#7EBF\>.
+  </problem>
+
   \;
+
+  <\problem>
+    (2018-06-10, 2018\<#9AD8\>\<#8003\>\<#5317\>\<#4EAC\>\<#5377\>\<#7406\>\<#79D1\>\<#7B2C\>20\<#9898\>)
+
+    \<#8BBE\> <math|n> \<#4E3A\>\<#6B63\>\<#6574\>\<#6570\>\<#FF0C\>\<#96C6\>\<#5408\>
+    <math|A=<around*|{|\<alpha\><around*|\||\<alpha\>=|\<nobracket\>><around*|\<nobracket\>|\<alpha\><around*|\||\<alpha\>=|(>t<rsub|1>,t<rsub|2>,\<ldots\>,t<rsub|n>|)>,t<rsub|k>\<in\><around*|{|0,1|}>,k=1,2,\<ldots\>,n|}>>,
+    \<#5BF9\>\<#4E8E\>\<#96C6\>\<#5408\> <math|A>
+    \<#4E2D\>\<#7684\>\<#4EFB\>\<#610F\>\<#5143\>\<#7D20\>
+    <math|\<alpha\>=<around*|(|x<rsub|1>,x<rsub|2>,\<ldots\>,x<rsub|n>|)>>
+    \<#548C\> <math|\<beta\>=<around*|(|y<rsub|1>,y<rsub|2>,\<ldots\>,y<rsub|n>|)>>\<#FF0C\>\<#8BB0\>
+
+    <\equation*>
+      M<around*|(|\<alpha\>,\<beta\>|)>=<frac|1|2><around*|[|<around*|(|x<rsub|1>+y<rsub|1>-<around*|\||x<rsub|1>-y<rsub|1>|\|>|)>+<around*|(|x<rsub|2>+y<rsub|2>-<around*|\||x<rsub|2>-y<rsub|2>|\|>|)>+\<cdots\>+<around*|(|x<rsub|n>+y<rsub|n>-<around*|\||x<rsub|n>-y<rsub|n>|\|>|)>|]>
+    </equation*>
+
+    \;
+
+    (1) \<#5F53\> <math|n=3> \<#65F6\>\<#FF0C\>\<#82E5\>
+    <math|\<alpha\>=<around*|(|1,1,0|)>>\<#FF0C\><math|\<beta\>=<around*|(|0,1,1|)>>\<#FF0C\>\<#6C42\>
+    <math|M<around*|(|\<alpha\>,\<alpha\>|)>> \<#548C\>
+    <math|M<around*|(|\<alpha\>,\<beta\>|)>> \<#7684\>\<#503C\>.
+
+    (2) \<#5F53\> <math|n=4> \<#65F6\>\<#FF0C\>\<#8BBE\> <math|B> \<#662F\>
+    <math|A> \<#7684\>\<#5B50\>\<#96C6\>\<#FF0C\>\<#4E14\>\<#6EE1\>\<#8DB3\>\<#FF1A\>\<#5BF9\>\<#4E8E\>
+    <math|B> \<#4E2D\>\<#7684\>\<#4EFB\>\<#610F\>\<#5143\>\<#7D20\>
+    <math|\<alpha\>>\<#3001\><math|\<beta\>>\<#FF0C\>\<#5F53\>
+    <math|\<alpha\>>\<#3001\><math|\<beta\>>
+    \<#76F8\>\<#540C\>\<#65F6\>\<#FF0C\><math|M<around*|(|\<alpha\>,\<beta\>|)>>
+    \<#662F\>\<#5947\>\<#6570\>\<#FF0C\>\<#5F53\>
+    <math|\<alpha\>>\<#3001\><math|\<beta\>>
+    \<#4E0D\>\<#540C\>\<#65F6\>\<#FF0C\><math|M<around*|(|\<alpha\>,\<beta\>|)>>
+    \<#662F\>\<#5076\>\<#6570\>\<#FF0C\>\<#6C42\>\<#96C6\>\<#5408\> <math|B>
+    \<#4E2D\>\<#5143\>\<#7D20\>\<#4E2A\>\<#6570\>\<#7684\>\<#6700\>\<#5927\>\<#503C\>.
+
+    (3) \<#7ED9\>\<#5B9A\>\<#4E0D\>\<#5C0F\>\<#4E8E\> 2 \<#7684\>
+    <math|n>\<#FF0C\>\<#8BBE\> <math|B> \<#662F\> <math|A>
+    \<#7684\>\<#5B50\>\<#96C6\>\<#FF0C\>\<#4E14\>\<#6EE1\>\<#8DB3\>:
+    \<#5BF9\>\<#4E8E\> <math|B> \<#4E2D\>\<#4EFB\>\<#610F\>\<#4E24\>\<#4E2A\>\<#4E0D\>\<#540C\>\<#7684\>\<#5143\>\<#7D20\>
+    <math|\<alpha\>>\<#3001\><math|\<beta\>>\<#FF0C\><math|M<around*|(|\<alpha\>,\<beta\>|)>=0>\<#FF0C\>\<#5199\>\<#51FA\>\<#4E00\>\<#4E2A\>\<#96C6\>\<#5408\>
+    <math|B>\<#FF0C\>\<#4F7F\>\<#5176\>\<#5143\>\<#7D20\>\<#4E2A\>\<#6570\>\<#6700\>\<#591A\>\<#FF0C\>\<#5E76\>\<#8BF4\>\<#660E\>\<#7406\>\<#7531\>.
+  </problem>
+
+  \;
+
+  <\problem>
+    (2018-06-10\<#FF0C\>2018\<#9AD8\>\<#8003\>\<#6D59\>\<#6C5F\>\<#5377\>\<#7B2C\>10\<#9898\>)
+
+    \<#5DF2\>\<#77E5\> <math|a<rsub|1>,a<rsub|2>,a<rsub|3>,a<rsub|4>>
+    \<#6210\>\<#7B49\>\<#6BD4\>\<#6570\>\<#5217\>\<#FF0C\>\<#4E14\>
+    <math|a<rsub|1>+a<rsub|2>+a<rsub|3>+a<rsub|4>=ln<around*|(|a<rsub|1>+a<rsub|2>+a<rsub|3>|)>>\<#FF0C\>\<#82E5\>
+    <math|a<rsub|1>\<gtr\>1>\<#FF0C\>\<#5219\>
+
+    (A). <math|a<rsub|1>\<less\>a<rsub|3>,a<rsub|2>\<less\>a<rsub|4>> (B).
+    <math|a<rsub|1>\<gtr\>a<rsub|3>,a<rsub|2>\<less\>a<rsub|4>> (C).
+    <math|a<rsub|1>\<less\>a<rsub|3>,a<rsub|2>\<gtr\>a<rsub|4>> (D).
+    <math|a<rsub|1>\<gtr\>a<rsub|3>,a<rsub|2>\<gtr\>a<rsub|4>>
+  </problem>
 
   \;
 </body>
