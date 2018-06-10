@@ -1560,6 +1560,21 @@
 
   \ 
 
+  <\solution>
+    (1) <math|a<rsub|n>=<around*|(|n-1|)>d>,
+    <math|b<rsub|n>=2<rsup|n-1>>\<#FF0C\>\<#6709\>
+    <math|<around*|\||<around*|(|n-1|)>d-2<rsup|n-1>|\|>\<leqslant\>1<around*|(|n=1,2,3,4|)>>\<#FF0C\>\<#FF0C\>\<#89E3\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#7EC4\>\<#5F97\>
+    <math|<frac|7|3>\<leqslant\>d\<leqslant\>3>.
+
+    (2) <math|<around*|\||a<rsub|1>+<around*|(|n-1|)>d-b<rsub|1>q<rsup|n-1>|\|>\<leqslant\>b<rsub|1>>
+
+    <math|b<rsub|1>q<rsup|n-1>-b<rsub|1>\<leqslant\>a<rsub|1>+<around*|(|n-1|)>d\<leqslant\>b<rsub|1>q<rsup|n-1>+b<rsub|1>>
+
+    <math|f<around*|(|x|)>=b<rsub|1>q<rsup|x-1>-<around*|(|x-1|)>d-a<rsub|1>>,
+    <math|f<rprime|'><around*|(|x|)>=b<rsub|1>q<rsup|x-1>ln q-d>,
+    <math|x<rsub|0>=log<rsub|q><around*|(|<frac|d|b<rsub|1>ln q>|)>>
+  </solution>
+
   <\problem>
     (2018-06-10, 2018\<#9AD8\>\<#8003\>\<#6D59\>\<#6C5F\>\<#5377\>\<#7B2C\>17\<#9898\>)
 
@@ -1597,7 +1612,75 @@
     <math|y=g<around*|(|x|)>> \<#7684\>\<#5207\>\<#7EBF\>.
   </problem>
 
-  \;
+  <\solution>
+    (1) \<#5BFC\>\<#51FD\>\<#6570\> <math|h<rprime|'><around*|(|x|)>=<around*|(|a<rsup|x>-1|)>ln
+    a>\<#FF0C\>\<#663E\>\<#7136\>\<#5F53\> <math|x\<in\><around*|(|0,1|)>>
+    \<#65F6\> <math|h<rprime|'><around*|(|x|)>\<less\>0>\<#FF0C\>\<#51FD\>\<#6570\>
+    <math|h<around*|(|x|)>> \<#5355\>\<#8C03\>\<#589E\>\<#52A0\>\<#FF0C\>\<#5F53\>
+    <math|x\<in\><around*|(|1,+\<infty\>|)>> \<#65F6\>
+    <math|h<rprime|'><around*|(|x|)>\<gtr\>0>\<#FF0C\>\<#51FD\>\<#6570\>
+    <math|h<around*|(|x|)>> \<#5355\>\<#8C03\>\<#51CF\>\<#5C11\>.
+
+    (2) \<#7531\> <math|f<rprime|'><around*|(|x<rsub|1>|)>=g<rprime|'><around*|(|x<rsub|2>|)>>
+    \<#5F97\> <math|a<rsup|x<rsub|1>>ln a=<frac|1|x<rsub|2>ln
+    a>>\<#FF0C\>\<#5373\> <math|x<rsub|2>a<rsup|x<rsub|1>><around*|(|ln
+    a|)><rsup|2>=1>\<#FF0C\>\<#4E24\>\<#8FB9\>\<#53D6\>\<#4EE5\> <math|a>
+    \<#4E3A\>\<#5E95\>\<#7684\>\<#5BF9\>\<#6570\>\<#5373\>\<#5F97\>
+    <math|x<rsub|1>+log<rsub|a>x<rsub|2>=-2log<rsub|a><around*|(|ln
+    a|)>=-<frac|2ln ln a|ln a>>.
+
+    (3) \<#8BBE\>\<#76F4\>\<#7EBF\> <math|l> \<#4E0E\>\<#66F2\>\<#7EBF\>
+    <math|y=f<around*|(|x|)>> \<#76F8\>\<#5207\>\<#4E8E\> <math|x=x<rsub|1>>
+    \<#5904\>\<#FF0C\>\<#76F4\>\<#7EBF\> <math|l> \<#4E0E\>\<#66F2\>\<#7EBF\>
+    <math|y=g<around*|(|x|)>> \<#76F8\>\<#5207\>\<#4E8E\> <math|x=x<rsub|2>>
+    \<#5904\>\<#FF0C\>\<#5219\>\<#4ECD\>\<#7531\>
+    <math|f<rprime|'><around*|(|x<rsub|1>|)>=g<rprime|'><around*|(|x<rsub|2>|)>>
+    \<#5F97\>\ 
+
+    <\equation>
+      a<rsup|x<rsub|1>>ln a=<frac|1|x<rsub|2>ln a>
+    </equation>
+
+    <math|>\<#53C8\>\<#66F2\>\<#7EBF\> <math|y=f<around*|(|x|)>> \<#5728\>
+    <math|x<rsub|1>> \<#5904\>\<#7684\>\<#5207\>\<#7EBF\>\<#65B9\>\<#7A0B\>\<#662F\>
+    <math|y-a<rsup|x<rsub|1>>=a<rsup|x<rsub|1>>ln
+    a<around*|(|x-x<rsub|1>|)>>\<#FF0C\>\<#800C\>\<#66F2\>\<#7EBF\>
+    <math|y=g<around*|(|x|)>> \<#5728\> <math|x<rsub|2>>
+    \<#5904\>\<#7684\>\<#5207\>\<#7EBF\>\<#65B9\>\<#7A0B\>\<#662F\>
+    <math|y-log<rsub|a>x<rsub|2>=<frac|1|x<rsub|2>ln
+    a><around*|(|x-x<rsub|2>|)>>\<#FF0C\>\<#5B83\>\<#4EEC\>\<#90FD\>\<#662F\>\<#76F4\>\<#7EBF\>
+    <math|l> \<#7684\>\<#65B9\>\<#7A0B\>\<#FF0C\>\<#56E0\>\<#6B64\>\<#6709\>
+
+    <\equation>
+      a<rsup|x<rsub|1>>-x<rsub|1>a<rsup|x<rsub|1>>ln
+      a=log<rsub|a>x<rsub|2>-<frac|1|ln a>
+    </equation>
+
+    \ \<#5C06\>\<#524D\>\<#4E00\>\<#5F0F\>\<#4EE3\>\<#5165\>\<#540E\>\<#4E00\>\<#5F0F\>\<#5373\>\<#5F97\>
+    <math|1-x<rsub|1>ln a=x<rsub|2>ln a<around*|(|ln
+    x<rsub|2>-1|)>>\<#FF0C\>\<#53C8\>\<#7531\>\<#524D\>\<#4E00\>\<#5F0F\>\<#6709\>
+    <math|x<rsub|1>ln a+ln x<rsub|2>=-2 ln ln a>\<#FF0C\>\<#6545\>\<#6709\>\ 
+
+    <\equation*>
+      1+2 ln ln a+ln x<rsub|2>=x<rsub|2>ln a<around*|(|ln x<rsub|2>-1|)>
+    </equation*>
+
+    \<#6B64\>\<#8DEF\>\<#4E0D\>\<#592A\>\<#901A\>\<#FF0C\>\<#6362\>\<#601D\>\<#8DEF\>\<#FF0C\>\<#7531\>
+    <math|1-x<rsub|1>ln a=x<rsub|2>ln a<around*|(|ln x<rsub|2>-1|)>>
+    \<#5F97\>\ 
+
+    <\equation*>
+      <frac|1|ln a>=x<rsub|1>+x<rsub|2>ln x<rsub|2>-x<rsub|2>=-<frac|2ln ln
+      a+ln x<rsub|2>|ln a>+x<rsub|2>ln x<rsub|2>-x<rsub|2>
+    </equation*>
+
+    \<#4F5C\>\<#51FD\>\<#6570\> <math|r<around*|(|x|)>=-<frac|2ln ln a+ln
+    x|ln a>+x ln x-x>.
+
+    <\equation*>
+      \;
+    </equation*>
+  </solution>
 
   <\problem>
     (2018-06-10, 2018\<#9AD8\>\<#8003\>\<#5317\>\<#4EAC\>\<#5377\>\<#7406\>\<#79D1\>\<#7B2C\>20\<#9898\>)
