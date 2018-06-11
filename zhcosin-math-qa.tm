@@ -1,4 +1,4 @@
-<TeXmacs|1.99.5>
+<TeXmacs|1.0.7.21>
 
 <style|<tuple|book|chinese>>
 
@@ -1638,7 +1638,7 @@
     \<#5F97\>\ 
 
     <\equation>
-      a<rsup|x<rsub|1>>ln a=<frac|1|x<rsub|2>ln a>
+      a<rsup|x<rsub|1>>ln a=<frac|1|x<rsub|2>ln a><label|b2osg>
     </equation>
 
     <math|>\<#53C8\>\<#66F2\>\<#7EBF\> <math|y=f<around*|(|x|)>> \<#5728\>
@@ -1653,34 +1653,73 @@
 
     <\equation>
       a<rsup|x<rsub|1>>-x<rsub|1>a<rsup|x<rsub|1>>ln
-      a=log<rsub|a>x<rsub|2>-<frac|1|ln a>
+      a=log<rsub|a>x<rsub|2>-<frac|1|ln a><label|sbvw4>
     </equation>
 
-    \ \<#5C06\>\<#524D\>\<#4E00\>\<#5F0F\>\<#4EE3\>\<#5165\>\<#540E\>\<#4E00\>\<#5F0F\>\<#5373\>\<#5F97\>
-    <math|1-x<rsub|1>ln a=x<rsub|2>ln a<around*|(|ln
-    x<rsub|2>-1|)>>\<#FF0C\>\<#53C8\>\<#7531\>\<#524D\>\<#4E00\>\<#5F0F\>\<#6709\>
-    <math|x<rsub|1>ln a+ln x<rsub|2>=-2 ln ln a>\<#FF0C\>\<#6545\>\<#6709\>\ 
+    \ \<#63A5\>\<#4E0B\>\<#6765\>\<#7684\>\<#4EFB\>\<#52A1\>\<#5C31\>\<#662F\>\<#8BC1\>\<#660E\>\<#FF1A\>\<#5F53\>
+    <math|a\<gtr\><with|math-font-family|rm|e<rsup|<frac|1|<with|math-font-family|rm|e>>>>>
+    \<#65F6\>\<#FF0C\>\<#5B58\>\<#5728\> <math|x<rsub|1>,x<rsub|2>\<gtr\>0>\<#FF0C\>
+    \<#4F7F\>\<#5F97\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#7B49\>\<#5F0F\>\<#6210\>\<#7ACB\>.
+
+    \<#5C06\>\<#5F0F\> <reference|b2osg> \<#4EE3\>\<#5165\>\<#5F0F\>
+    <reference|sbvw4> \<#5373\>\<#5F97\> <math|1-x<rsub|1>ln a=x<rsub|2>ln
+    a<around*|(|ln x<rsub|2>-1|)>>\<#FF0C\>\<#53C8\>\<#7531\>
+    <reference|b2osg> \<#6709\> <math|x<rsub|1>ln a+ln x<rsub|2>=-2 ln ln
+    a>\<#FF0C\>\<#6545\>\<#6709\>\ 
+
+    <\equation>
+      1+2 ln ln a+ln x<rsub|2>=x<rsub|2>ln a<around*|(|ln
+      x<rsub|2>-1|)><label|2nsllqw>
+    </equation>
+
+    \<#6211\>\<#4EEC\>\<#5148\>\<#6765\>\<#8BC1\>\<#660E\>\<#8FD9\>\<#4E2A\>\<#65B9\>\<#7A0B\>\<#662F\>\<#6709\>\<#6B63\>\<#5B9E\>\<#6570\>\<#89E3\>\<#7684\>\<#FF0C\>\<#4EE4\>
+    <math|r<around*|(|x|)>=x ln a<around*|(|ln x-1|)>-ln x-2ln ln
+    a-1>\<#FF0C\>\<#5219\> <math|r<around*|(|e|)>=-2ln ln
+    a-2\<less\>0>\<#FF0C\>\<#6211\>\<#4EEC\>\<#518D\>\<#627E\>\<#4E00\>\<#4E2A\>\<#70B9\>\<#FF0C\>\<#4F7F\>\<#5F97\>\<#8BE5\>\<#70B9\>\<#5904\>\<#7684\>\<#51FD\>\<#6570\>\<#503C\>\<#4E3A\>\<#6B63\>\<#FF0C\>\<#4E3A\>\<#6B64\>\<#628A\>
+    <math|r<around*|(|x|)>> \<#6539\>\<#5199\>\<#4E3A\>
 
     <\equation*>
-      1+2 ln ln a+ln x<rsub|2>=x<rsub|2>ln a<around*|(|ln x<rsub|2>-1|)>
+      r<around*|(|x|)>=x ln a ln x<around*|(|1-<frac|1|ln x>-<frac|1|x ln
+      a>-<frac|1+2 ln ln a|x ln a ln x>|)>
     </equation*>
 
-    \<#6B64\>\<#8DEF\>\<#4E0D\>\<#592A\>\<#901A\>\<#FF0C\>\<#6362\>\<#601D\>\<#8DEF\>\<#FF0C\>\<#7531\>
-    <math|1-x<rsub|1>ln a=x<rsub|2>ln a<around*|(|ln x<rsub|2>-1|)>>
-    \<#5F97\>\ 
+    \<#5E76\>\<#4EE4\> <math|0\<less\><frac|1|ln x>\<less\><frac|1|6>>,
+    <math|0\<less\><frac|1|x ln a>\<less\><frac|1|6>>,
+    <math|0\<less\><frac|1+2 ln ln a|x ln a ln
+    x>\<less\><frac|1|6>>\<#FF0C\>\<#8FD9\>\<#65F6\>\<#4E0A\>\<#5F0F\>\<#4E2D\>\<#62EC\>\<#53F7\>\<#7684\>\<#8868\>\<#8FBE\>\<#5F0F\>\<#5C06\>\<#4FDD\>\<#6301\>\<#6B63\>\<#53F7\>\<#FF0C\>\<#800C\>
+    <math|r<around*|(|x|)>> \<#7684\>\<#7B26\>\<#53F7\>\<#5219\>\<#7531\>\<#62EC\>\<#53F7\>\<#5916\>\<#9762\>\<#7684\>\<#90E8\>\<#5206\>\<#6765\>\<#51B3\>\<#5B9A\>\<#FF0C\>\<#5148\>\<#6765\>\<#89E3\>\<#8FD9\>\<#4E09\>\<#4E2A\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#FF0C\>\<#7531\>\<#524D\>\<#4E8C\>\<#4E2A\>\<#5F97\>
+    <math|x\<gtr\>max<around*|(|<with|math-font-family|rm|e><rsup|6>,<frac|6|ln
+    a>|)>>\<#FF0C\>\<#7B2C\>\<#4E09\>\<#4E2A\>\<#4E0D\>\<#597D\>\<#89E3\>\<#FF0C\>\<#4F46\>\<#6211\>\<#4EEC\>\<#5728\>\<#9650\>\<#5B9A\>
+    <math|x\<gtr\><with|math-font-family|rm|e>>
+    \<#65F6\>\<#53EF\>\<#4EE5\>\<#6709\> <math|<frac|1+2 ln ln a|x ln a ln
+    x>\<less\><frac|1+2 ln ln a|x ln a>>\<#FF0C\>\<#4E8E\>\<#662F\>\<#7531\>
+    <math|<frac|1+2 ln ln a|x ln a>\<less\><frac|1|6>> \<#5F97\>
+    <math|x\<gtr\>max<around*|(|<with|math-font-family|rm|e>,<frac|6<around*|(|1+2ln
+    ln a|)>|ln a>|)>>\<#FF0C\>\<#4E8E\>\<#662F\>\<#53EA\>\<#8981\> <math|x>
+    \<#6EE1\>\<#8DB3\>
 
     <\equation*>
-      <frac|1|ln a>=x<rsub|1>+x<rsub|2>ln x<rsub|2>-x<rsub|2>=-<frac|2ln ln
-      a+ln x<rsub|2>|ln a>+x<rsub|2>ln x<rsub|2>-x<rsub|2>
+      x\<gtr\>max<around*|(|<with|math-font-family|rm|e><rsup|6>,<frac|6|ln
+      a>,<frac|6<around*|(|1+2ln ln a|)>|ln a>|)>
     </equation*>
 
-    \<#4F5C\>\<#51FD\>\<#6570\> <math|r<around*|(|x|)>=-<frac|2ln ln a+ln
-    x|ln a>+x ln x-x>.
+    \<#65F6\>\<#FF0C\>\<#5C31\>\<#6709\> <math|r<around*|(|x|)>\<gtr\>0>\<#FF0C\>\<#4E8E\>\<#662F\>\<#51FD\>\<#6570\>
+    <math|r<around*|(|x|)>> \<#5728\>\<#533A\>\<#95F4\>
+    <math|<around*|(|<with|math-font-family|rm|e>,+\<infty\>|)>>
+    \<#4E0A\>\<#5C31\>\<#5FC5\>\<#6709\>\<#4E00\>\<#6839\>\<#FF0C\>\<#4E8E\>\<#662F\>\<#65B9\>\<#7A0B\>
+    <math|<reference|2nsllqw>> \<#5C31\>\<#786E\>\<#5B9E\>\<#6709\>\<#89E3\>\<#FF0C\>\<#8BBE\>\<#8FD9\>\<#4E2A\>\<#89E3\>\<#4E3A\>
+    <math|x<rsub|2>>\<#FF0C\>\<#518D\>\<#4EE4\>\ 
 
     <\equation*>
-      \;
+      x<rsub|1>=-log<rsub|a><around*|(|x<rsub|2><around*|(|ln a|)><rsup|2>|)>
     </equation*>
+
+    \<#5219\> <math|x<rsub|1>> \<#4E0E\> <math|x<rsub|2>>
+    \<#5C31\>\<#540C\>\<#65F6\>\<#6EE1\>\<#8DB3\>\<#5F0F\> <reference|b2osg>
+    \<#548C\>\<#5F0F\> <reference|sbvw4> \<#FF0C\>\<#8FD9\>\<#5C31\>\<#8BC1\>\<#5F97\>\<#4E86\>\<#7ED3\>\<#8BBA\>.
   </solution>
+
+  \;
 
   <\problem>
     (2018-06-10, 2018\<#9AD8\>\<#8003\>\<#5317\>\<#4EAC\>\<#5377\>\<#7406\>\<#79D1\>\<#7B2C\>20\<#9898\>)
@@ -1812,10 +1851,13 @@
 
 <\references>
   <\collection>
+    <associate|2nsllqw|<tuple|3.3|?>>
     <associate|auto-1|<tuple|?|3>>
     <associate|auto-2|<tuple|1|5>>
     <associate|auto-3|<tuple|2|7>>
     <associate|auto-4|<tuple|3|11>>
+    <associate|b2osg|<tuple|3.1|?>>
+    <associate|sbvw4|<tuple|3.2|?>>
   </collection>
 </references>
 
