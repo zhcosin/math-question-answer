@@ -1658,7 +1658,7 @@
 
     \ \<#63A5\>\<#4E0B\>\<#6765\>\<#7684\>\<#4EFB\>\<#52A1\>\<#5C31\>\<#662F\>\<#8BC1\>\<#660E\>\<#FF1A\>\<#5F53\>
     <math|a\<gtr\><with|math-font-family|rm|e<rsup|<frac|1|<with|math-font-family|rm|e>>>>>
-    \<#65F6\>\<#FF0C\>\<#5B58\>\<#5728\> <math|x<rsub|1>,x<rsub|2>\<gtr\>0>\<#FF0C\>
+    \<#65F6\>\<#FF0C\>\<#5B58\>\<#5728\> <math|x<rsub|1>\<in\><with|math-font|Bbb*|R>,x<rsub|2>\<gtr\>0>\<#FF0C\>
     \<#4F7F\>\<#5F97\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#7B49\>\<#5F0F\>\<#6210\>\<#7ACB\>.
 
     \<#5C06\>\<#5F0F\> <reference|b2osg> \<#4EE3\>\<#5165\>\<#5F0F\>
