@@ -1477,7 +1477,9 @@
     \<#65F6\>\<#FF0C\>\<#6709\> <math|2+x+a
     x<rsup|2>\<gtr\>0>\<#FF0C\>\<#56E0\>\<#6B64\>\<#8FD9\>\<#65F6\>\<#4E0D\>\<#7B49\>\<#5F0F\>
     <math|f<around*|(|x|)>\<less\>0> \<#7B49\>\<#4EF7\>\<#4E8E\>
-    <math|ln<around*|(|1+x|)>\<less\><frac|2x|2+x+a x<rsup|2>>>. \<#4EE4\>
+    <math|ln<around*|(|1+x|)>\<less\><frac|2x|2+x+a x<rsup|2>>>.
+    \<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#9650\>\<#5B9A\>
+    <math|\<delta\>\<less\>min<around*|(|1,<frac|1|<sqrt|<around*|\||a|\|>>>|)>>\<#FF0C\>\<#8FD9\>\<#662F\>\<#5408\>\<#7406\>\<#7684\>\<#3002\>\<#4EE4\>
     <math|h<around*|(|x|)>=ln<around*|(|1+x|)>-<frac|2x|2+x+a
     x<rsup|2>>>\<#FF0C\>\<#5176\>\<#5BFC\>\<#51FD\>\<#6570\>
     <math|h<rprime|'><around*|(|x|)>=<frac|a x<rsup|2><around*|(|a
