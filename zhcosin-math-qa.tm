@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.21>
+<TeXmacs|1.99.5>
 
 <style|<tuple|book|chinese>>
 
@@ -1458,13 +1458,36 @@
     (2) \<#5BFC\>\<#51FD\>\<#6570\> <math|f<rprime|'><around*|(|x|)>=<around*|(|1+2
     a x|)>ln<around*|(|1+x|)>+<frac|1+a x<rsup|2>|1+x>-1>\<#FF0C\>\<#663E\>\<#7136\>\<#6709\>
     <math|f<rprime|'><around*|(|0|)>=0>\<#FF0C\>\<#4E14\>
-    <math|f<around*|(|0|)>=0>.
+    <math|f<around*|(|0|)>=0>. \<#8981\>\<#4F7F\>\<#5F97\>
+    <math|f<around*|(|x|)>> \<#5728\> <math|x=0>
+    \<#5904\>\<#53D6\>\<#6781\>\<#5927\>\<#503C\>\<#FF0C\>\<#5C31\>\<#5FC5\>\<#987B\>\<#5B58\>\<#5728\>\<#5B9E\>\<#6570\>
+    <math|\<delta\>\<gtr\>0>\<#FF0C\>\<#4F7F\>\<#5F97\>\<#5F53\>
+    <math|x\<in\><around*|(|-\<delta\>,0|)>\<cup\><around*|(|0,\<delta\>|)>>
+    \<#65F6\>\<#FF0C\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+    <math|f<around*|(|x|)>\<less\>f<around*|(|0|)>=0>
+    \<#6052\>\<#6210\>\<#7ACB\>.
 
-    \<#4EE4\> <math|h<around*|(|x|)>=<around*|(|1+x|)>f<rprime|'><around*|(|x|)>=<around*|(|1+x|)><around*|(|1+2a
-    x|)>ln<around*|(|1+x|)>+a x<rsup|2>-x>\<#FF0C\>\<#5176\>\<#5BFC\>\<#51FD\>\<#6570\>\ 
+    \<#7531\> (1) \<#7684\>\<#7ED3\>\<#8BBA\>\<#53EF\>\<#77E5\> <math|a=0>
+    \<#4E0D\>\<#7B26\>\<#5408\>\<#8981\>\<#6C42\>\<#FF0C\>\<#56E0\>\<#6B64\>\<#63A5\>\<#4E0B\>\<#6765\>\<#7684\>\<#8BA8\>\<#8BBA\>\<#90FD\>\<#9650\>\<#5B9A\>
+    <math|a\<neq\>0>.
 
-    <math|h<rprime|'><around*|(|x|)>=<around*|(|1+2a
-    x|)>ln<around*|(|1+x|)>+2a<around*|(|1+x|)>ln<around*|(|1+x|)>+1+4a x-1>
+    \<#663E\>\<#7136\>\<#5F53\> <math|<around*|\||x|\|>\<less\>1> \<#4E14\>
+    <math|<around*|\||a x<rsup|2>|\|>\<less\>1>
+    \<#65F6\>\<#FF0C\>\<#4E5F\>\<#5373\> <math|<around*|\||x|\|>\<less\>min<around*|(|1,<frac|1|<sqrt|<around*|\||a|\|>>>|)>>
+    \<#65F6\>\<#FF0C\>\<#6709\> <math|2+x+a
+    x<rsup|2>\<gtr\>0>\<#FF0C\>\<#56E0\>\<#6B64\>\<#8FD9\>\<#65F6\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+    <math|f<around*|(|x|)>\<less\>0> \<#7B49\>\<#4EF7\>\<#4E8E\>
+    <math|ln<around*|(|1+x|)>\<less\><frac|2x|2+x+a x<rsup|2>>>. \<#4EE4\>
+    <math|h<around*|(|x|)>=ln<around*|(|1+x|)>-<frac|2x|2+x+a
+    x<rsup|2>>>\<#FF0C\>\<#5176\>\<#5BFC\>\<#51FD\>\<#6570\>
+    <math|h<rprime|'><around*|(|x|)>=<frac|a x<rsup|2><around*|(|a
+    x<rsup|2>+4 x+6a+1|)>|<around*|(|1+x|)><around*|(|2+x+a
+    x<rsup|2>|)><rsup|2>>>\<#FF0C\>\<#6613\>\<#89C1\>\<#FF0C\>\<#5982\>\<#679C\>
+    <math|6a+1\<neq\>0>\<#FF0C\>\<#5219\> <math|h<rprime|'><around*|(|x|)>>
+    \<#5728\> <math|x=0> \<#7684\>\<#4E24\>\<#4FA7\>\<#5FC5\>\<#7136\>\<#4E00\>\<#6B63\>\<#4E00\>\<#8D1F\>\<#FF0C\>\<#4ECE\>\<#800C\>\<#603B\>\<#6709\>\<#4E00\>\<#4FA7\>\<#6709\>
+    <math|h<around*|(|x|)>\<gtr\>h<around*|(|0|)>=0>
+    \<#6210\>\<#7ACB\>\<#FF0C\>\<#4E0D\>\<#7B26\>\<#5408\>\<#8981\>\<#6C42\>\<#FF0C\>\<#6240\>\<#4EE5\>
+    <math|a=-<frac|1|6>> \<#4E3A\>\<#6240\>\<#6C42\>.
   </solution>
 
   \;
