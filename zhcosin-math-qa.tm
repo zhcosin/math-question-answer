@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.21>
+<TeXmacs|1.99.5>
 
 <style|<tuple|book|chinese>>
 
@@ -1902,6 +1902,58 @@
     <math|a<rsub|1>\<gtr\>a<rsub|3>,a<rsub|2>\<less\>a<rsub|4>> (C).
     <math|a<rsub|1>\<less\>a<rsub|3>,a<rsub|2>\<gtr\>a<rsub|4>> (D).
     <math|a<rsub|1>\<gtr\>a<rsub|3>,a<rsub|2>\<gtr\>a<rsub|4>>
+  </problem>
+
+  \;
+
+  <\problem>
+    (2018-11-14, \<#8449\>\<#5B50\>) \<#6C42\>\<#8BC1\>:
+    <math|<big|int><rsub|0><rsup|+\<infty\>><frac|sin x|x>d
+    x\<less\><big|int><rsub|0><rsup|\<pi\>><frac|sin x|x>d x>.
+
+    <\proof>
+      \<#53EA\>\<#9700\>\<#8BC1\>\<#660E\>
+      <math|<big|int><rsub|\<pi\>><rsup|+\<infty\>><frac|sin x|x>d
+      x\<less\>0>\<#FF0C\>\<#7531\>\<#4E8E\>\<#6B63\>\<#5F26\>\<#51FD\>\<#6570\>\<#7684\>\<#5468\>\<#671F\>\<#6027\>\<#FF0C\>\<#88AB\>\<#79EF\>\<#51FD\>\<#6570\>\<#5728\>
+      <math|\<pm\><frac|1|x>> \<#4E4B\>\<#95F4\>\<#5468\>\<#671F\>\<#6027\>\<#632F\>\<#8361\>\<#FF0C\>\<#4F46\>\<#662F\>\<#632F\>\<#5E45\>\<#968F\>\<#7740\>
+      <math|x> \<#7684\>\<#589E\>\<#5927\>\<#800C\>\<#5355\>\<#8C03\>\<#51CF\>\<#5C0F\>\<#5E76\>\<#8D8B\>\<#96F6\>\<#FF0C\>\<#6211\>\<#5C06\>\<#8BC1\>\<#660E\>\<#8FD9\>\<#51FD\>\<#6570\>\<#5728\>\<#6BCF\>\<#4E2A\>\<#632F\>\<#8361\>\<#5468\>\<#671F\>
+      <math|<around*|[|<around*|(|2k-1|)>\<pi\>,<around*|(|2k+1|)>\<pi\>|]><around*|(|k\<in\>N<rsub|+>|)>>
+      \<#4E0A\>\<#7684\>\<#79EF\>\<#5206\>\<#4E3A\>\<#8D1F\>\<#503C\>\<#FF0C\>\<#5373\>\ 
+
+      <\equation*>
+        <big|int><rsub|<around*|(|2k-1|)>\<pi\>><rsup|<around*|(|2k+1|)>\<pi\>><frac|sin
+        x|x>d x\<less\>0
+      </equation*>
+
+      \<#4E00\>\<#65E6\>\<#8BC1\>\<#5B9E\>\<#4E86\>\<#8FD9\>\<#4E00\>\<#70B9\>\<#FF0C\>\<#7ACB\>\<#5373\>\<#5C31\>\<#6709\>
+
+      <\equation*>
+        <big|int><rsub|\<pi\>><rsup|+\<infty\>><frac|sin x|x>d
+        x=<big|sum><rsub|k=1><rsup|+\<infty\>><big|int><rsub|<around*|(|2k-1|)>\<pi\>><rsup|<around*|(|2k+1|)>\<pi\>><frac|sin
+        x|x>d x\<less\>0
+      </equation*>
+
+      \<#4ECE\>\<#800C\>\<#5C31\>\<#80FD\>\<#5B8C\>\<#6210\>\<#8BC1\>\<#660E\>\<#FF0C\>\<#4E0B\>\<#9762\>\<#5C31\>\<#6765\>\<#5B9E\>\<#73B0\>\<#8FD9\>\<#4E00\>\<#70B9\>:
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<big|int><rsub|<around*|(|2k-1|)>\<pi\>><rsup|<around*|(|2k+1|)>\<pi\>><frac|sin
+        x|x>d x>|<cell|=>|<cell|<big|int><rsub|<around*|(|2k-1|)>\<pi\>><rsup|2k\<pi\>><frac|sin
+        x|x>d x+<big|int><rsub|2k\<pi\>><rsup|<around*|(|2k+1|)>\<pi\>><frac|sin
+        x|x>d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|<around*|(|2k-1|)>\<pi\>><rsup|2k\<pi\>><frac|sin
+        x|x>d x+<big|int><rsub|<around*|(|2k-1|)>\<pi\>><rsup|2k\<pi\>><frac|sin
+        <around*|(|x+\<pi\>|)>|x+\<pi\>>d
+        x>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|<around*|(|2k-1|)>\<pi\>><rsup|2k\<pi\>><frac|sin
+        x|x>d x-<big|int><rsub|<around*|(|2k-1|)>\<pi\>><rsup|2k\<pi\>><frac|sin
+        x|x+\<pi\>>d x>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|<around*|(|2k-1|)>\<pi\>><rsup|2k\<pi\>><around*|(|<frac|1|x>-<frac|1|x+\<pi\>>|)>sin
+        x d x>>>>
+      </eqnarray*>
+
+      \<#5728\>\<#6BCF\>\<#4E00\>\<#4E2A\>\<#533A\>\<#95F4\>
+      <math|<around*|[|<around*|(|2k-1|)>\<pi\>,2k\<pi\>|]><around*|(|k\<in\>N<rsub|+>|)>>
+      \<#4E0A\>\<#FF0C\>\<#6B63\>\<#5F26\>\<#51FD\>\<#6570\>\<#90FD\>\<#6052\>\<#4FDD\>\<#6301\>\<#7740\>\<#8D1F\>\<#7684\>\<#7B26\>\<#53F7\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#8FD9\>\<#91CC\>\<#6700\>\<#540E\>\<#7684\>\<#79EF\>\<#5206\>\<#4E3A\>\<#8D1F\>\<#503C\>\<#FF0C\>\<#4ECE\>\<#800C\>\<#5F97\>\<#8BC1\>.
+
+      \;
+    </proof>
   </problem>
 
   \;
