@@ -1957,6 +1957,110 @@
   </problem>
 
   \;
+
+  <\problem>
+    (2018-11-29, 2017\<#5E74\>\<#4E2D\>\<#79D1\>\<#9662\>\<#5927\>\<#5B66\>\<#9AD8\>\<#7B49\>\<#4EE3\>\<#6570\>)
+
+    \<#8BC1\>\<#660E\>: \<#5982\>\<#679C\>\<#5B9E\>\<#7CFB\>\<#6570\>\<#591A\>\<#9879\>\<#5F0F\>
+    <math|f<around*|(|x|)>> \<#5BF9\>\<#6240\>\<#6709\>\<#5B9E\>\<#6570\>
+    <math|x> \<#5747\>\<#6709\> <math|f<around*|(|x|)>\<geqslant\>0>\<#FF0C\>\<#5219\>
+    <math|f<around*|(|x|)>> \<#53EF\>\<#4EE5\>\<#5199\>\<#6210\>\<#4E24\>\<#4E2A\>\<#5B9E\>\<#7CFB\>\<#6570\>\<#591A\>\<#9879\>\<#5F0F\>\<#7684\>\<#5E73\>\<#65B9\>\<#548C\>
+    <math|f<around*|(|x|)>=g<rsup|2><around*|(|x|)>+h<rsup|2><around*|(|x|)>>.
+
+    <\proof>
+      \<#5728\>\<#590D\>\<#6570\>\<#8303\>\<#56F4\>\<#5185\>\<#FF0C\><math|n>
+      \<#6B21\>\<#590D\>\<#7CFB\>\<#6570\>\<#591A\>\<#9879\>\<#5F0F\>
+      <math|f<around*|(|x|)>> \<#4E0D\>\<#591A\>\<#4E0D\>\<#5C11\>\<#6B63\>\<#597D\>\<#6709\>
+      <math|n> \<#4E2A\>\<#590D\>\<#6839\>\<#FF0C\>\<#4ECE\>\<#800C\>\<#5B83\>\<#53EF\>\<#4EE5\>\<#5206\>\<#89E3\>\<#4E3A\>
+
+      <\equation*>
+        f<around*|(|x|)>=a<around*|(|x-x<rsub|1>|)><around*|(|x-x<rsub|2>|)>\<cdots\><around*|(|x-x<rsub|n>|)>
+      </equation*>
+
+      \<#5BF9\>\<#4E8E\>\<#5B9E\>\<#7CFB\>\<#6570\>\<#591A\>\<#9879\>\<#5F0F\>\<#6765\>\<#8BF4\>\<#FF0C\>\<#5B83\>\<#7684\>\<#865A\>\<#6839\>\<#4E00\>\<#5B9A\>\<#662F\>\<#6210\>\<#5BF9\>\<#51FA\>\<#73B0\>\<#7684\>\<#FF0C\>\<#73B0\>\<#5047\>\<#8BBE\>
+      <math|n> \<#6B21\>\<#5B9E\>\<#7CFB\>\<#6570\> <math|f<around*|(|x|)>>
+      \<#591A\>\<#9879\>\<#5F0F\>\<#5BF9\>\<#6240\>\<#6709\>\<#5B9E\>\<#6570\>
+      <math|x> \<#5747\>\<#6709\> <math|f<around*|(|x|)>\<geqslant\>0>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5982\>\<#679C\>\<#5B83\>\<#6709\>\<#5B9E\>\<#6570\>\<#6839\>\<#FF0C\>\<#5219\>\<#5176\>\<#91CD\>\<#6570\>\<#5FC5\>\<#7136\>\<#4E3A\>\<#5076\>\<#6570\>\<#91CD\>\<#3002\>\<#73B0\>\<#5047\>\<#8BBE\>\<#5B83\>\<#6709\>
+      <math|r> \<#4E2A\>\<#5B9E\>\<#6839\>\<#FF08\>\<#91CD\>\<#6839\>\<#53EA\>\<#7B97\>\<#4E00\>\<#4E2A\>\<#FF09\><math|x<rsub|i><around*|(|i=1,2,\<ldots\>,r|)>>\<#4EE5\>\<#53CA\>
+      <math|s> \<#5BF9\>\<#865A\>\<#6839\>\<#FF08\>\<#6CE8\>\<#610F\>\<#662F\>\<#5BF9\>\<#FF0C\>\<#4E0D\>\<#662F\>\<#4E2A\>\<#FF09\><math|y<rsub|j><around*|(|j=1,2,\<ldots\>,s|)>>
+      \<#53CA\> <math|<wide|y<rsub|j>|\<bar\>>>\<#FF0C\>\<#5219\>\<#5B83\>\<#53EF\>\<#4EE5\>\<#8868\>\<#4E3A\>
+
+      <\equation*>
+        f<around*|(|x|)>=a<big|prod><rsub|k=1><rsup|r><around*|(|x-x<rsub|k>|)><rsup|2m<rsub|k>>\<cdot\><big|prod><rsub|j=1><rsup|s><around*|(|x-y<rsub|j>|)><around*|(|x-<wide|y<rsub|j>|\<bar\>>|)>
+      </equation*>
+
+      \<#6B64\>\<#5904\>\<#5FC5\>\<#6709\>
+      <math|a\<gtr\>0>\<#FF0C\>\<#5426\>\<#5219\>\<#5F53\> <math|x>
+      \<#4FDD\>\<#6301\>\<#4E3A\>\<#5B9E\>\<#6570\>\<#5E76\>\<#4EE4\>
+      <math|x\<rightarrow\>+\<infty\>>\<#FF0C\>\<#4FBF\>\<#6709\>
+      <math|f<around*|(|x|)>\<less\>0>\<#FF0C\>\<#4E0D\>\<#7B26\>\<#5408\>\<#8981\>\<#6C42\>.
+
+      \<#6CE8\>\<#610F\>\<#5230\> <math|g<rsup|2><around*|(|x|)>+h<rsup|2><around*|(|x|)>=<around*|[|g<around*|(|x|)>+i
+      h<around*|(|x|)>|]><around*|[|g<around*|(|x|)>-i
+      h<around*|(|x|)>|]>>\<#FF0C\>\<#6211\>\<#4EEC\>\<#53EA\>\<#9700\>\<#8981\>\<#628A\>
+      <math|f<around*|(|x|)>> \<#5206\>\<#89E3\>\<#6210\>\<#4E24\>\<#4E2A\>\<#590D\>\<#591A\>\<#9879\>\<#5F0F\>
+      <math|u<around*|(|x|)>> \<#548C\> <math|v<around*|(|x|)>>
+      \<#4E4B\>\<#79EF\>\<#FF0C\>\<#800C\>\<#4E14\> <math|u<around*|(|x|)>>
+      \<#548C\> <math|v<around*|(|x|)>> \<#5171\>\<#8F6D\>\<#FF0C\>\<#505A\>\<#5230\>\<#8FD9\>\<#4E00\>\<#70B9\>\<#FF0C\>\<#5C31\>\<#80FD\>\<#5B8C\>\<#6210\>\<#8BC1\>\<#660E\>.
+
+      \<#5BF9\>\<#4E8E\>\<#5206\>\<#89E3\>\<#5F0F\>\<#4E2D\>\<#7684\>\<#5B9E\>\<#6839\>\<#56E0\>\<#5F0F\>
+      <math|<around*|(|x-x<rsub|k>|)><rsup|2m<rsub|k>>>\<#FF0C\>\<#81EA\>\<#7136\>\<#53EF\>\<#4EE5\>\<#8BA9\>
+      <math|<around*|(|x-x<rsub|i>|)><rsup|m<rsub|i>>> \<#6210\>\<#4E3A\>
+      <math|u<around*|(|x|)>> \<#7684\>\<#4E00\>\<#4E2A\>\<#56E0\>\<#5F0F\>.
+
+      \<#5BF9\>\<#4E8E\>\<#5206\>\<#89E3\>\<#5F0F\>\<#4E2D\>\<#7684\>\<#865A\>\<#6839\>\<#56E0\>\<#5F0F\>
+      <math|<around*|(|x-y<rsub|j>|)><around*|(|x-<wide|y<rsub|j>|\<bar\>>|)>>\<#FF0C\>\<#5047\>\<#5B9A\>
+      <math|y<rsub|j>=p<rsub|j>+i q<rsub|j><around*|(|p<rsub|j>,q<rsub|j>\<in\>R|)>>\<#FF0C\>\<#5219\>
+
+      <\equation*>
+        <around*|(|x-y<rsub|j>|)><around*|(|x-<wide|y<rsub|j>|\<bar\>>|)>=<around*|[|<around*|(|x-p<rsub|j>|)>+i
+        q<rsub|j>|]><around*|[|<around*|(|x-p<rsub|j>|)>-i q<rsub|j>|]>
+      </equation*>
+
+      \<#4E8E\>\<#662F\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#8BA9\>
+      <math|<around*|(|x-p<rsub|j>|)>+i q<rsub|j>> \<#6210\>\<#4E3A\>
+      <math|u<around*|(|x|)>> \<#7684\>\<#4E00\>\<#4E2A\>\<#56E0\>\<#5F0F\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#6700\>\<#7EC8\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#7684\>
+      <math|u<around*|(|x|)>> \<#53EF\>\<#4EE5\>\<#8868\>\<#4E3A\>
+
+      <\equation*>
+        u<around*|(|x|)>=<sqrt|a><big|prod><rsub|k=1><rsup|r><around*|(|x-x<rsub|i>|)><rsup|m<rsub|i>>\<cdot\><big|prod><rsub|j=1><rsup|s><around*|[|<around*|(|x-p<rsub|j>|)>+i
+        q<rsub|j>|]>
+      </equation*>
+
+      \<#81EA\>\<#7136\>\<#4E5F\>\<#6709\>
+
+      <\equation*>
+        v<around*|(|x|)>=<sqrt|a><big|prod><rsub|k=1><rsup|r><around*|(|x-x<rsub|i>|)><rsup|m<rsub|i>>\<cdot\><big|prod><rsub|j=1><rsup|s><around*|[|<around*|(|x-p<rsub|j>|)>-i
+        q<rsub|j>|]>
+      </equation*>
+
+      \<#800C\> <math|f<around*|(|x|)>=u<around*|(|x|)>
+      v<around*|(|x|)>>\<#FF0C\>\<#5982\>\<#679C\>\<#8981\>\<#8BE6\>\<#7EC6\>\<#7684\>\<#5F97\>\<#5230\>
+      <math|g<around*|(|x|)>> \<#548C\> <math|h<around*|(|x|)>>\<#FF0C\>\<#5219\>\<#9700\>\<#8981\>\<#4ECE\>\<#65B9\>\<#7A0B\>\<#7EC4\>
+
+      <\equation*>
+        u<around*|(|x|)>=g<around*|(|x|)>+i
+        v<around*|(|x|)>,v<around*|(|x|)>=g<around*|(|x|)>-i v<around*|(|x|)>
+      </equation*>
+
+      \<#4E2D\>\<#89E3\>\<#51FA\> <math|g<around*|(|x|)>> \<#548C\>
+      <math|v<around*|(|x|)>> \<#6765\>:
+
+      <\equation*>
+        g<around*|(|x|)>=<frac|1|2><around*|[|u<around*|(|x|)>+v<around*|(|x|)>|]>,v<around*|(|x|)>=<frac|1|2i><around*|[|u<around*|(|x|)>-v<around*|(|x|)>|]>
+      </equation*>
+
+      <\equation*>
+        \;
+      </equation*>
+
+      \<#8BC1\>\<#660E\>\<#5B8C\>\<#6210\>.
+
+      \;
+    </proof>
+  </problem>
+
+  \;
 </body>
 
 <\references>
